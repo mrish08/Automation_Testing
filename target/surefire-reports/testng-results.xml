@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-25T02:20:39 SGT" name="Surefire suite" finished-at="2021-06-25T02:20:48 SGT" duration-ms="8656">
+    <groups>
+    </groups>
+    <test started-at="2021-06-25T02:20:39 SGT" name="Surefire test" finished-at="2021-06-25T02:20:48 SGT" duration-ms="8656">
+      <class name="examples.ExamplesTest">
+        <test-method signature="testParallel()[pri:0, instance:examples.ExamplesTest@7c7b252e]" started-at="2021-06-25T02:20:39 SGT" name="testParallel" finished-at="2021-06-25T02:20:48 SGT" duration-ms="8594" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParallel -->
+      </class> <!-- examples.ExamplesTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

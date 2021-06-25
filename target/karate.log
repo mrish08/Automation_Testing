@@ -1,0 +1,930 @@
+01:28:07.436 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:28:08.948 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:28:09.651 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:28:10.605 [main] DEBUG com.intuit.karate - response time in milliseconds: 891
+1 < 200
+1 < Date: Thu, 24 Jun 2021 17:28:10 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1622784628
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 7616
+1 < cf-request-id: 0ae0a9b36400000a9c78935000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Jw8%2BeVsS9F9fw%2FuOPywEF%2FHmzd90KBL9zOmB5ihfuhhd3%2F5rSv3VJF3TImq1Su398Hqp2KRWpHdCQrQdwvx2UMzy%2FhwymbsLV5LUBq5En3GEQ2Ap84WeJejtXxzqSha%2BdVLP8bO7YYcoUA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647abcbdae60a9c-NRT
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+01:28:10.667 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+2 > Accept-Encoding: gzip,deflate
+
+
+01:28:10.839 [main] DEBUG com.intuit.karate - response time in milliseconds: 172
+2 < 200
+2 < Date: Thu, 24 Jun 2021 17:28:11 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1619232468
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 20937
+2 < cf-request-id: 0ae0a9b51e000019608b1c4000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=g8TNnLOg75obKaze%2B9tT7bVJeOurS9YGz7amqJWeqd9GKzjxGP74%2FR%2F308HE%2BQTtTk1ItLYWzNQH%2BPIytCyxA81GZ%2Bi7cb1mPPK8%2F3eZGHq8wg7FFIbovIN9Cg7IPpLnPoLN%2Fm4d6WLm%2Bg%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6647abce98301960-SIN
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+01:28:10.870 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:28:10.964 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+01:28:11.917 [main] DEBUG com.intuit.karate - response time in milliseconds: 937
+1 < 201
+1 < Date: Thu, 24 Jun 2021 17:28:12 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1624555738
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0ae0a9b7660000204739904000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=vt4m0RZehIkPKPZgHduLAnSTMxPhNrheCcvyw9ogRf3Q8%2F1UeWjnxY62%2F48tYf5itYyD5zrzpOLexcZDSG3wlyEQPeGIywdUxDfm86CmbSs27xqh78FdiB2Lum%2FOCi0FNettSJR2%2BprYTg%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647abd23a242047-NRT
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+01:28:11.933 [main] INFO  com.intuit.karate - [print] created id is:  11 
+01:47:44.257 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:47:45.799 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:47:46.502 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:47:47.096 [main] DEBUG com.intuit.karate - response time in milliseconds: 516
+1 < 200
+1 < Date: Thu, 24 Jun 2021 17:47:47 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1624305286
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 21175
+1 < cf-request-id: 0ae0bba782000001c0f1909000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=ufZQFvPx0iL%2FknLLBejrd%2BMGKbtV7zCktPqWadqR5mRHmw%2Bvbrn%2BkUzdO%2FwpFT4PdVrFR%2FElVkCi2X8mXZgyDPpXlCvBuR0EMa95fc9piewjGcCgiKlSruWL4vETQkB3eTpuxH3crAhGDA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647c8859d6901c0-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+01:47:47.127 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+2 > Accept-Encoding: gzip,deflate
+
+
+01:47:47.861 [main] DEBUG com.intuit.karate - response time in milliseconds: 734
+2 < 200
+2 < Date: Thu, 24 Jun 2021 17:47:48 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1624165890
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 8818
+2 < cf-request-id: 0ae0bbaa310000f8c7b6339000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=R6CuEdDuWw7Tu%2FacZb%2FYJDv1vdD1tojQKF4Hb8U8tqWPn4ub%2Bip4bAe47kcQBCFFDX%2BeNRu2nsN55mx0vWISZaVcwiwF65McbQq1nDsRTZmTeUY7K3QIVAtSsF8N9XkKAOyfOfMwTNCewQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6647c889eb53f8c7-NRT
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+01:47:47.876 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:47:48.001 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+01:47:48.658 [main] DEBUG com.intuit.karate - response time in milliseconds: 657
+1 < 201
+1 < Date: Thu, 24 Jun 2021 17:47:49 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1624556878
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0ae0bbac2d0000dcceb512e000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=bpdxQSJAfQrpKSv4yIQeZ9%2BCtY2qdt0B1snQnBAcIJHnTIP6T2DYvCmv7xRlIMbRUaGb8MB2jowjVUXrhHLDZSPzSqLwjapyPIrL0QjOPsCtJ8SsDSGgj5ZnbRcMBAhUAgiTxQuKlORrWA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647c88d1dc2dcce-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+01:47:48.673 [main] INFO  com.intuit.karate - [print] created id is:  11 
+01:48:44.254 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:48:44.270 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624556924254
+01:50:54.244 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:50:55.963 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:50:56.745 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+
+
+01:50:57.339 [main] DEBUG com.intuit.karate - response time in milliseconds: 547
+1 < 200
+1 < Date: Thu, 24 Jun 2021 17:50:57 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1624305286
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 21365
+1 < cf-request-id: 0ae0be8ed100001960a03ca000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=EkNDmsXglMkG5Str5NZB%2BodTpVQ%2BLNgIHILCxz7M1Yp6lswOrD0hHpoiFeoI233DagYBjhJBvmAUOy1BiTbYMgOp1%2BTlUINWteEt31ZMQP1blNBS7posT81q%2FILlLcCZ7Xfp%2Fvm5Hb6EWQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647cd2aec4b1960-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+01:50:57.370 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+2 > Accept-Encoding: gzip,deflate
+
+
+01:50:57.527 [main] DEBUG com.intuit.karate - response time in milliseconds: 157
+2 < 200
+2 < Date: Thu, 24 Jun 2021 17:50:58 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1619232468
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 22303
+2 < cf-request-id: 0ae0be8fc30000dd739d941000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=kASo%2Berq1Gec0VV0xP66VXG3dpt%2BBLs5KHme%2FnKUoC9z7JG6z6X8NVwXrS8Gkcfyx3M%2FOAmBvUXYd0ME4p4M2O4mHpmWSsTdDH9Cq5laiHQAr5UXQNAjGLYg3FDoNOxQybEWJD%2BUvYEf6A%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6647cd2c68f1dd73-SIN
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+01:50:57.559 [main] INFO  com.intuit.karate - karate.env system property was: null 
+01:50:57.684 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+01:50:58.509 [main] DEBUG com.intuit.karate - response time in milliseconds: 825
+1 < 201
+1 < Date: Thu, 24 Jun 2021 17:50:58 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1624557118
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0ae0be916f0000018b89092000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=tvHPJFhllRzVjvCGpKER4eXKYiCp7w3uPR4YK3xri1ScXFs2K9%2Bpd9tR%2FFy4JqwucvrE6Gy95GlorNtQQG2W3Co2FDBthPEPJ1Zx%2BIz7E7jxWPGSZxbtf1DZl9awTyE62QazcBmdw%2FSdJQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647cd2f1959018b-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+01:50:58.509 [main] INFO  com.intuit.karate - [print] created id is:  11 
+01:56:17.696 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+01:56:17.712 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624557377712
+02:00:48.253 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:00:49.932 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:00:50.674 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+
+
+02:00:51.205 [main] DEBUG com.intuit.karate - response time in milliseconds: 484
+1 < 200
+1 < Date: Thu, 24 Jun 2021 18:00:51 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 997
+1 < X-Ratelimit-Reset: 1624305286
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 21959
+1 < cf-request-id: 0ae0c79e9400002e86b49ea000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=aJ58d6VX3y5uhGtbPIGroKY8JWfUoJgEav5xvIOlo8PenpPZ6BCVgO5XaGtvjz0QVIk881zY8wV%2FDYw2vH1vFDYAPz0JepmMzf2vdGO9TvIe8BXNadLOXSMIiJ5TpgKK1z1pAF1zSjs0zQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647dbaa8c972e86-SIN
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+02:00:51.252 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+2 > Accept-Encoding: gzip,deflate
+
+
+02:00:51.423 [main] DEBUG com.intuit.karate - response time in milliseconds: 171
+2 < 200
+2 < Date: Thu, 24 Jun 2021 18:00:51 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1619232468
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 22897
+2 < cf-request-id: 0ae0c79fa900005677080cd000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=Nz8ai1q4QAZxeoMaV6mN3oXCo3Bs%2B9PNKxV4KQldWdJlZEA9LXu3WLqrcVXM%2FMlJ5Exq3YnuxruCu9y2ev0BaiJygPzWMK6vkAiZgSk2mfpghzxdy9nWMLSCV%2F13MsaxNccn2koj6Pdgcw%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6647dbac49895677-SIN
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+02:00:51.439 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:00:51.598 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+02:00:52.643 [main] DEBUG com.intuit.karate - response time in milliseconds: 1045
+1 < 201
+1 < Date: Thu, 24 Jun 2021 18:00:52 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1624557658
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0ae0c7a21d00001d673a26e000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=qWZJydgHlABLog3kdB9cVt8xeb3K4R%2BFnSLMJgAN09c10zqun8yKkdVSNRIT5MechlXVHTmxb3DfqSipyj0uMMkWD1%2F4NINFM%2BHrQitAWMa7DzIyExM1KcL3rQWXVRvy8BrBx96hq01CTA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647dbb02d5d1d67-NRT
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+02:00:52.643 [main] INFO  com.intuit.karate - [print] created id is:  11 
+02:18:44.988 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:18:44.997 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624558724995
+02:20:40.900 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:20:40.915 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624558840900
+02:20:42.619 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:20:43.134 [main] DEBUG com.intuit.karate - request:
+1 > GET https://jsonplaceholder.typicode.com/users
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+
+
+02:20:44.055 [main] DEBUG com.intuit.karate - response time in milliseconds: 906
+1 < 200
+1 < Date: Thu, 24 Jun 2021 18:20:44 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Transfer-Encoding: chunked
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1622687474
+1 < Vary: Origin, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: max-age=43200
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: HIT
+1 < Age: 10795
+1 < cf-request-id: 0ae0d9d1d700001f3741811000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=qpLT3FuyuzrLi3MzXmTwNvxOG2vYxlCFugoMdkCKoHnaA8HjjVKnyEUUUDQ03AtgXIvY6WJc08EByhdkPKlLosgW9ZbYqKTyvrJlrQxSNmJYvnaiVsTkGKShQi5cq6CQvp22QI5%2BLU9GNw%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647f8c95b661f37-NRT
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+[{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"},{"website":"anastasia.net","address":{"zipcode":"90566-7771","geo":{"lng":"-34.4618","lat":"-43.9509"},"suite":"Suite 879","city":"Wisokyburgh","street":"Victor Plains"},"phone":"010-692-6593 x09125","name":"Ervin Howell","company":{"bs":"synergize scalable supply-chains","catchPhrase":"Proactive didactic contingency","name":"Deckow-Crist"},"id":2,"email":"Shanna@melissa.tv","username":"Antonette"},{"website":"ramiro.info","address":{"zipcode":"59590-4157","geo":{"lng":"-47.0653","lat":"-68.6102"},"suite":"Suite 847","city":"McKenziehaven","street":"Douglas Extension"},"phone":"1-463-123-4447","name":"Clementine Bauch","company":{"bs":"e-enable strategic applications","catchPhrase":"Face to face bifurcated interface","name":"Romaguera-Jacobson"},"id":3,"email":"Nathan@yesenia.net","username":"Samantha"},{"website":"kale.biz","address":{"zipcode":"53919-4257","geo":{"lng":"-164.2990","lat":"29.4572"},"suite":"Apt. 692","city":"South Elvis","street":"Hoeger Mall"},"phone":"493-170-9623 x156","name":"Patricia Lebsack","company":{"bs":"transition cutting-edge web services","catchPhrase":"Multi-tiered zero tolerance productivity","name":"Robel-Corkery"},"id":4,"email":"Julianne.OConner@kory.org","username":"Karianne"},{"website":"demarco.info","address":{"zipcode":"33263","geo":{"lng":"62.5342","lat":"-31.8129"},"suite":"Suite 351","city":"Roscoeview","street":"Skiles Walks"},"phone":"(254)954-1289","name":"Chelsey Dietrich","company":{"bs":"revolutionize end-to-end systems","catchPhrase":"User-centric fault-tolerant solution","name":"Keebler LLC"},"id":5,"email":"Lucio_Hettinger@annie.ca","username":"Kamren"},{"website":"ola.org","address":{"zipcode":"23505-1337","geo":{"lng":"71.7478","lat":"-71.4197"},"suite":"Apt. 950","city":"South Christy","street":"Norberto Crossing"},"phone":"1-477-935-8478 x6430","name":"Mrs. Dennis Schulist","company":{"bs":"e-enable innovative applications","catchPhrase":"Synchronised bottom-line interface","name":"Considine-Lockman"},"id":6,"email":"Karley_Dach@jasper.info","username":"Leopoldo_Corkery"},{"website":"elvis.io","address":{"zipcode":"58804-1099","geo":{"lng":"21.8984","lat":"24.8918"},"suite":"Suite 280","city":"Howemouth","street":"Rex Trail"},"phone":"210.067.6132","name":"Kurtis Weissnat","company":{"bs":"generate enterprise e-tailers","catchPhrase":"Configurable multimedia task-force","name":"Johns Group"},"id":7,"email":"Telly.Hoeger@billy.biz","username":"Elwyn.Skiles"},{"website":"jacynthe.com","address":{"zipcode":"45169","geo":{"lng":"-120.7677","lat":"-14.3990"},"suite":"Suite 729","city":"Aliyaview","street":"Ellsworth Summit"},"phone":"586.493.6943 x140","name":"Nicholas Runolfsdottir V","company":{"bs":"e-enable extensible e-tailers","catchPhrase":"Implemented secondary concept","name":"Abernathy Group"},"id":8,"email":"Sherwood@rosamond.me","username":"Maxime_Nienow"},{"website":"conrad.com","address":{"zipcode":"76495-3109","geo":{"lng":"-168.8889","lat":"24.6463"},"suite":"Suite 449","city":"Bartholomebury","street":"Dayna Park"},"phone":"(775)976-6794 x41206","name":"Glenna Reichert","company":{"bs":"aggregate real-time technologies","catchPhrase":"Switchable contextually-based project","name":"Yost and Sons"},"id":9,"email":"Chaim_McDermott@dana.io","username":"Delphine"},{"website":"ambrose.net","address":{"zipcode":"31428-2261","geo":{"lng":"57.2232","lat":"-38.2386"},"suite":"Suite 198","city":"Lebsackbury","street":"Kattie Turnpike"},"phone":"024-648-3804","name":"Clementina DuBuque","company":{"bs":"target end-to-end models","catchPhrase":"Centralized empowering task-force","name":"Hoeger LLC"},"id":10,"email":"Rey.Padberg@karina.biz","username":"Moriah.Stanton"}]
+02:20:44.086 [main] DEBUG com.intuit.karate - request:
+2 > GET https://jsonplaceholder.typicode.com/users/1
+2 > Host: jsonplaceholder.typicode.com
+2 > Connection: Keep-Alive
+2 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+2 > Accept-Encoding: gzip,deflate
+
+
+02:20:44.649 [main] DEBUG com.intuit.karate - response time in milliseconds: 563
+2 < 200
+2 < Date: Thu, 24 Jun 2021 18:20:45 GMT
+2 < Content-Type: application/json; charset=utf-8
+2 < Transfer-Encoding: chunked
+2 < Connection: keep-alive
+2 < X-Powered-By: Express
+2 < X-Ratelimit-Limit: 1000
+2 < X-Ratelimit-Remaining: 999
+2 < X-Ratelimit-Reset: 1622687534
+2 < Vary: Origin, Accept-Encoding
+2 < Access-Control-Allow-Credentials: true
+2 < Cache-Control: max-age=43200
+2 < Pragma: no-cache
+2 < Expires: -1
+2 < X-Content-Type-Options: nosniff
+2 < Etag: W/"1fd-+2Y3G3w049iSZtw5t1mzSnunngE"
+2 < Via: 1.1 vegur
+2 < CF-Cache-Status: HIT
+2 < Age: 7204
+2 < cf-request-id: 0ae0d9d43d0000204197aec000000001
+2 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+2 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=R%2BJysFYvC1bSLS5gMvFa%2BYHP409mGzK35bRNnNTGfr87JwuidgWQ6n3gLmrfDAk0FvfosfpwYL6V0QNdu6lZHPgz1%2Bash2h7LdZkuesRxYwkZxUqLQQPwAfpx5o4xE4TPARozS3Hpj6AeA%3D%3D"}],"group":"cf-nel","max_age":604800}
+2 < NEL: {"report_to":"cf-nel","max_age":604800}
+2 < Server: cloudflare
+2 < CF-RAY: 6647f8cd2e5e2041-NRT
+2 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"website":"hildegard.org","address":{"zipcode":"92998-3874","geo":{"lng":"81.1496","lat":"-37.3159"},"suite":"Apt. 556","city":"Gwenborough","street":"Kulas Light"},"phone":"1-770-736-8031 x56442","name":"Leanne Graham","company":{"bs":"harness real-time e-markets","catchPhrase":"Multi-layered client-server neural-net","name":"Romaguera-Crona"},"id":1,"email":"Sincere@april.biz","username":"Bret"}
+02:20:44.680 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:20:44.805 [main] DEBUG com.intuit.karate - request:
+1 > POST https://jsonplaceholder.typicode.com/users
+1 > Content-Type: application/json; charset=UTF-8
+1 > Content-Length: 160
+1 > Host: jsonplaceholder.typicode.com
+1 > Connection: Keep-Alive
+1 > User-Agent: Apache-HttpClient/4.5.13 (Java/11.0.4)
+1 > Accept-Encoding: gzip,deflate
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","email":"test@user.com","username":"testuser"}
+
+02:20:45.947 [main] DEBUG com.intuit.karate - response time in milliseconds: 1142
+1 < 201
+1 < Date: Thu, 24 Jun 2021 18:20:46 GMT
+1 < Content-Type: application/json; charset=utf-8
+1 < Content-Length: 216
+1 < Connection: keep-alive
+1 < X-Powered-By: Express
+1 < X-Ratelimit-Limit: 1000
+1 < X-Ratelimit-Remaining: 999
+1 < X-Ratelimit-Reset: 1624558858
+1 < Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+1 < Access-Control-Allow-Credentials: true
+1 < Cache-Control: no-cache
+1 < Pragma: no-cache
+1 < Expires: -1
+1 < Access-Control-Expose-Headers: Location
+1 < Location: http://jsonplaceholder.typicode.com/users/11
+1 < X-Content-Type-Options: nosniff
+1 < Etag: W/"d8-pYV7+YuMGP2hxHPU9ARrf97ifDA"
+1 < Via: 1.1 vegur
+1 < CF-Cache-Status: DYNAMIC
+1 < cf-request-id: 0ae0d9d71b0000f8a759a32000000001
+1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
+1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=fBpJ7ICk3aGaPpl2Rd2axGA533mY22dq9Dqu%2BRpjWAfGlCUQLi1JpqAayr6kSeScwARTscS29%2BEzwvJPHX5s3jv9NeV6rZJrGYqONYJCtsBBki4KtlEu19RBB8Z7aJ%2F3ySOkUTiOgytUGA%3D%3D"}],"group":"cf-nel","max_age":604800}
+1 < NEL: {"report_to":"cf-nel","max_age":604800}
+1 < Server: cloudflare
+1 < CF-RAY: 6647f8d1cef8f8a7-NRT
+1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
+{"address":{"zipcode":"54321-6789","suite":"Apt. 123","city":"Electri","street":"Has No Name"},"name":"Test User","id":11,"email":"test@user.com","username":"testuser"}
+02:20:45.947 [main] INFO  com.intuit.karate - [print] created id is:  11 
+02:20:47.166 [main] INFO  com.intuit.karate.Suite - <<pass>> feature 2 of 2 (0 remaining) src/test/java/examples/users/users.feature
+02:20:47.166 [main] DEBUG com.intuit.karate.Suite - waiting for 2 features to complete
+02:22:33.062 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:22:33.062 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624558953062
+02:32:44.744 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:32:44.760 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624559564760
+02:32:47.026 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:32:47.073 [main] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+02:32:47.088 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+02:32:47.088 [chrome_1624559567088] DEBUG c.i.k.driver.chrome_1624559567088 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1624559567088, --disable-popup-blocking], working dir: target\chrome_1624559567088
+02:32:47.104 [chrome_1624559567088] ERROR com.intuit.karate.shell.Command - command error: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1624559567088, --disable-popup-blocking] - Cannot run program "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" (in directory "target\chrome_1624559567088"): CreateProcess error=2, The system cannot find the file specified
+02:32:52.604 [main] ERROR com.intuit.karate - driver config / start failed: start failed, options: {type=chrome, target=null}
+com.intuit.karate.KarateException: start failed
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:268)
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:243)
+	at com.intuit.karate.driver.chrome.Chrome.start(Chrome.java:64)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:291)
+	at com.intuit.karate.core.ScenarioEngine.driver(ScenarioEngine.java:857)
+	at com.intuit.karate.ScenarioActions.driver(ScenarioActions.java:400)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intuit.karate.core.StepRuntime.execute(StepRuntime.java:280)
+	at com.intuit.karate.core.ScenarioRuntime.execute(ScenarioRuntime.java:462)
+	at com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:396)
+	at com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:181)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at com.intuit.karate.core.FeatureRuntime.run(FeatureRuntime.java:164)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intuit.karate.core.SyncExecutorService.execute(SyncExecutorService.java:70)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at com.intuit.karate.Suite.run(Suite.java:226)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:516)
+	at com.intuit.karate.cli.IdeMain.main(IdeMain.java:60)
+	at cucumber.api.cli.Main.main(Main.java:34)
+Caused by: java.io.IOException: Cannot run program "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" (in directory "target\chrome_1624559567088"): CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.intuit.karate.shell.Command.run(Command.java:348)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:420)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:151)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 2 common frames omitted
+02:32:52.604 [main] ERROR com.intuit.karate - src/test/java/examples/activity001/google_search.feature:5
+Given driver 'https://google.com'
+driver config / start failed: start failed, options: {type=chrome, target=null}
+src/test/java/examples/activity001/google_search.feature:5
+02:32:55.884 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/activity001/google_search.feature
+02:36:29.590 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:36:29.602 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624559789600
+02:36:31.429 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:36:31.498 [main] ERROR com.intuit.karate - src/test/java/examples/activity001/google_search.feature:5
+* configure driver ={type: 'chrome', executable: 'C:\Program Files\Google\Chrome\Application\chrome.exe'}
+no step-definition method match found for: configure driver ={type: 'chrome', executable: 'C:\Program Files\Google\Chrome\Application\chrome.exe'}
+src/test/java/examples/activity001/google_search.feature:5
+02:36:33.016 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/activity001/google_search.feature
+02:37:10.063 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:37:10.074 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624559830071
+02:37:12.163 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:37:12.232 [main] ERROR com.intuit.karate - src/test/java/examples/activity001/google_search.feature:5
+Given configure driver ={type: 'chrome', executable: 'C:\Program Files\Google\Chrome\Application\chrome.exe'}
+no step-definition method match found for: configure driver ={type: 'chrome', executable: 'C:\Program Files\Google\Chrome\Application\chrome.exe'}
+src/test/java/examples/activity001/google_search.feature:5
+02:37:13.432 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/activity001/google_search.feature
+02:43:21.641 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:43:21.658 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624560201655
+02:43:23.558 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:43:23.629 [main] WARN  com.intuit.karate - type was null, defaulting to 'chrome'
+02:43:23.647 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+02:43:23.651 [chrome_1624560203645] DEBUG c.i.k.driver.chrome_1624560203645 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1624560203645, --disable-popup-blocking], working dir: target\chrome_1624560203645
+02:43:23.656 [chrome_1624560203645] ERROR com.intuit.karate.shell.Command - command error: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1624560203645, --disable-popup-blocking] - Cannot run program "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" (in directory "target\chrome_1624560203645"): CreateProcess error=2, The system cannot find the file specified
+02:43:29.187 [main] ERROR com.intuit.karate - driver config / start failed: start failed, options: {type=chrome, target=null}
+com.intuit.karate.KarateException: start failed
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:268)
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:243)
+	at com.intuit.karate.driver.chrome.Chrome.start(Chrome.java:64)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:291)
+	at com.intuit.karate.core.ScenarioEngine.driver(ScenarioEngine.java:857)
+	at com.intuit.karate.ScenarioActions.driver(ScenarioActions.java:400)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intuit.karate.core.StepRuntime.execute(StepRuntime.java:280)
+	at com.intuit.karate.core.ScenarioRuntime.execute(ScenarioRuntime.java:462)
+	at com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:396)
+	at com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:181)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at com.intuit.karate.core.FeatureRuntime.run(FeatureRuntime.java:164)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intuit.karate.core.SyncExecutorService.execute(SyncExecutorService.java:70)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at com.intuit.karate.Suite.run(Suite.java:226)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:516)
+	at examples.activity001.ExamplesTest.testParallel(ExamplesTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.io.IOException: Cannot run program "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" (in directory "target\chrome_1624560203645"): CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.intuit.karate.shell.Command.run(Command.java:348)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:420)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:151)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 2 common frames omitted
+02:43:29.190 [main] ERROR com.intuit.karate - src/test/java/examples/activity001/google_search.feature:5
+Given driver 'https://google.com'
+driver config / start failed: start failed, options: {type=chrome, target=null}
+src/test/java/examples/activity001/google_search.feature:5
+02:43:30.626 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/activity001/google_search.feature
+02:50:11.609 [main] DEBUG com.intuit.karate.Suite - [config] classpath:karate-config.js
+02:50:11.624 [main] INFO  com.intuit.karate.Suite - backed up existing 'target\karate-reports' dir to: target\karate-reports_1624560611624
+02:50:13.781 [main] INFO  com.intuit.karate - karate.env system property was: null 
+02:50:13.928 [main] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+02:50:13.939 [chromedriver_1624560613925] DEBUG c.i.k.d.chromedriver_1624560613925 - command: [C:rogram Filesooglehromepplicationhromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1624560613925], working dir: target\chromedriver_1624560613925
+02:50:13.946 [chromedriver_1624560613925] ERROR com.intuit.karate.shell.Command - command error: [C:rogram Filesooglehromepplicationhromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1624560613925] - Cannot run program "C:rogram Filesooglehromepplicationhromedriver.exe" (in directory "target\chromedriver_1624560613925"): CreateProcess error=2, The system cannot find the file specified
+02:50:19.463 [main] ERROR com.intuit.karate - driver config / start failed: start failed, options: {type=chromedriver, executable=C:rogram Filesooglehromepplicationhromedriver.exe, target=null}
+com.intuit.karate.KarateException: start failed
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:268)
+	at com.intuit.karate.driver.DriverOptions.startProcess(DriverOptions.java:243)
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:60)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:40)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:295)
+	at com.intuit.karate.core.ScenarioEngine.driver(ScenarioEngine.java:857)
+	at com.intuit.karate.ScenarioActions.driver(ScenarioActions.java:400)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at com.intuit.karate.core.StepRuntime.execute(StepRuntime.java:280)
+	at com.intuit.karate.core.ScenarioRuntime.execute(ScenarioRuntime.java:462)
+	at com.intuit.karate.core.ScenarioRuntime.run(ScenarioRuntime.java:396)
+	at com.intuit.karate.core.FeatureRuntime.processScenario(FeatureRuntime.java:181)
+	at java.base/java.util.Iterator.forEachRemaining(Iterator.java:133)
+	at com.intuit.karate.core.FeatureRuntime.run(FeatureRuntime.java:164)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at com.intuit.karate.core.SyncExecutorService.execute(SyncExecutorService.java:70)
+	at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:118)
+	at com.intuit.karate.Suite.run(Suite.java:226)
+	at com.intuit.karate.Runner$Builder.parallel(Runner.java:516)
+	at examples.activity001.ExamplesTest.testParallel(ExamplesTest.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:221)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+Caused by: java.io.IOException: Cannot run program "C:rogram Filesooglehromepplicationhromedriver.exe" (in directory "target\chromedriver_1624560613925"): CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
+	at com.intuit.karate.shell.Command.run(Command.java:348)
+Caused by: java.io.IOException: CreateProcess error=2, The system cannot find the file specified
+	at java.base/java.lang.ProcessImpl.create(Native Method)
+	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:420)
+	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:151)
+	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
+	... 2 common frames omitted
+02:50:19.464 [main] ERROR com.intuit.karate - src/test/java/examples/activity001/google_search.feature:6
+* driver 'https://www.google.com/'
+driver config / start failed: start failed, options: {type=chromedriver, executable=C:rogram Filesooglehromepplicationhromedriver.exe, target=null}
+src/test/java/examples/activity001/google_search.feature:6
+02:50:20.833 [main] INFO  com.intuit.karate.Suite - <<fail>> feature 1 of 1 (0 remaining) src/test/java/examples/activity001/google_search.feature
+10:19:53.588 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:19:54.057 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
+10:19:54.182 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+10:19:54.182 [chromedriver_1624587594182] DEBUG c.i.k.d.chromedriver_1624587594182 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1624587594182]
+10:19:54.197 [ForkJoinPool-1-worker-3] DEBUG c.i.k.d.chromedriver_1624587594182 - poll attempt #0 for port to be ready - localhost:9515
+10:19:54.760 [chromedriver_1624587594182-out] DEBUG c.i.k.d.chromedriver_1624587594182 - Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 9515
+10:19:54.760 [chromedriver_1624587594182-out] DEBUG c.i.k.d.chromedriver_1624587594182 - Only local connections are allowed.
+10:19:54.760 [chromedriver_1624587594182-out] DEBUG c.i.k.d.chromedriver_1624587594182 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+10:19:54.760 [chromedriver_1624587594182-out] DEBUG c.i.k.d.chromedriver_1624587594182 - ChromeDriver was started successfully.
+10:19:55.807 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+10:19:57.345 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 1392.27
+1 < 200
+1 < Content-Length: 754
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"91.0.4472.114","chrome":{"chromedriverVersion":"91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir9968_509289398"},"goog:chromeOptions":{"debuggerAddress":"localhost:9625"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"7c9d20a4fa53110a97b43124612ac02c"}}
+
+10:19:57.361 [ForkJoinPool-1-worker-3] DEBUG c.i.k.d.chromedriver_1624587594182 - init session id: 7c9d20a4fa53110a97b43124612ac02c
+10:19:57.829 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+{"url":"https://www.google.com/"}
+
+10:20:04.060 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 6227.34
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+10:20:04.222 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+{"using":"css selector","value":"input[name=q]"}
+
+10:20:04.342 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 119.61
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"a5443278-764a-4dd5-a10a-66b4a0f522a9"}}
+
+10:20:04.354 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/element/a5443278-764a-4dd5-a10a-66b4a0f522a9/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+{"text":"karate dsl"}
+
+10:20:04.539 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 184.62
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+10:20:04.611 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+10:20:11.247 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 6629.47
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+10:20:11.288 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+
+10:20:11.304 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 7.21
+6 < 200
+6 < Content-Length: 44
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://github.com/intuit/karate"}
+
+10:20:11.323 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+
+10:20:14.571 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 3250.55
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+10:20:14.571 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/7c9d20a4fa53110a97b43124612ac02c
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/11.0.4)
+
+10:20:14.712 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate - response time in milliseconds: 137.63
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+10:20:14.712 [ForkJoinPool-1-worker-3] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1624587594182
+10:20:14.727 [chromedriver_1624587594182] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1624587594182]
+10:20:14.727 [chromedriver_1624587594182] DEBUG com.intuit.karate.shell.Command - console readers complete
+10:20:15.321 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
