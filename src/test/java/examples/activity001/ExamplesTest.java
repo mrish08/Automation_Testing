@@ -18,7 +18,7 @@ public class ExamplesTest {
     @Test
     public void testParallel() {
 
-        Results results = Runner.path("src/test/java/examples/activity001/").tags("~@ignore").parallel(1);
+        Results results = Runner.path("src/test/java/examples/activity001/xml_test.feature").tags("~@ignore").parallel(1);
         //Results results = Runner.parallel(getClass(), 5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);

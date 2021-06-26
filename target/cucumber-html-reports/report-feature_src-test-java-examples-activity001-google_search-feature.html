@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Automation_Testing</td>
-            <td>25 Jun 2021, 10:20</td>
+            <td>26 Jun 2021, 16:43</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">src/test/java/examples/activity001/google_search.feature</td>
-                    <td      class="passed"    >5</td>
+                    <td      class="passed"    >4</td>
+          <td      class="failed"    >2</td>
+          <td     class="skipped"   >4</td>
           <td >0</td>
           <td >0</td>
-          <td >0</td>
-          <td >0</td>
-          <td class="total">5</td>
+          <td class="total">10</td>
 
-          <td  class="passed"    >1</td>
           <td >0</td>
-          <td class="total">1</td>
+          <td  class="failed"    >2</td>
+          <td class="total">2</td>
 
-          <td class="duration" data-value="17151121700">17s 151ms</td>
-          <td class="passed">Passed</td>
+          <td class="duration" data-value="95967838800">1m 35s 967ms</td>
+          <td class="failed">Failed</td>
         </tr>
         </tbody>
 
@@ -174,14 +174,14 @@ $(document).ready(function() {
       </div>
 
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Feature</span>
   <span class="name">src/test/java/examples/activity001/google_search.feature</span>
   
 
   </div>
 
-        <div class="description indention">Karate Search</div>
+        <div class="description indention">Search in Google</div>
 
         <div class="elements inner-level">
                       
@@ -192,14 +192,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">17s 151ms</span>
+  <span class="lead-duration duration">55s 491ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
     
-<div class="brief passed">
-  <span class="keyword indention">Scenario</span>
-  <span class="name">Google Chrome</span>
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Using Karate Search</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -208,15 +208,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details ">
+  <div id="element-1" class="collapse collapsable-details  in ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
     
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -226,12 +226,12 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details ">
+  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
           <div class="step">
         
 <div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}</span>
+  <span class="keyword indention">Given</span>
+  <span class="name">configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -242,13 +242,45 @@ $(document).ready(function() {
 
         
         
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief failed">
+  <span class="keyword indention">And</span>
+  <span class="name">driver 'https://www.google.com/'</span>
+  
+  <span class="lead-duration duration">55s 490ms</span>
+
+  </div>
+
+        
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
+          <a>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</a>
+      </div>
+      <div id="msg-3" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
+      </div>
+    </div>
+  </div>
+
+
+        
+        
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-3">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
           <a>Doc string</a>
       </div>
-      <div id="msg-3" class="collapse collapsable-details">
-        <pre>10:19:54.057 karate.env system property was:</pre>
+      <div id="msg-4" class="collapse collapsable-details">
+        <pre>16:24:44.095 driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
       </div>
     </div>
   </div>
@@ -260,11 +292,126 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
-  <span class="keyword indention">*</span>
-  <span class="name">driver 'https://www.google.com/'</span>
+<div class="brief skipped">
+  <span class="keyword indention">And</span>
+  <span class="name">input('input[name=q]', 'karate dsl')</span>
   
-  <span class="lead-duration duration">9s 896ms</span>
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">When</span>
+  <span class="name">click('input[name=btn2]')</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief skipped">
+  <span class="keyword indention">Then</span>
+  <span class="name">waitForUrl('https://github.com/intuit/karate')</span>
+  
+  <span class="lead-duration duration">000ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+      </div>
+</div>
+
+
+    
+
+  </div>
+</div>
+
+                      
+<div class="element">
+  
+  
+<div class="tags indention">
+  </div>
+
+  
+  <span class="lead-duration duration">40s 476ms</span>
+
+
+    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+    
+<div class="brief failed">
+  <span class="keyword indention">Scenario Outline</span>
+  <span class="name">Using Facebook Search</span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-5" class="collapse collapsable-details  in ">
+    
+
+
+    
+<div class="steps inner-level">
+    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-6">
+    
+<div class="brief failed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+  
+
+       <i class="chevron fa fa-fw"></i>
+  </div>
+
+  </div>
+
+  <div id="steps-6" class="inner-level collapse collapsable-details  in ">
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Given</span>
+  <span class="name">configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</span>
+  
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 
@@ -283,9 +430,40 @@ $(document).ready(function() {
         
 <div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">input('input[name=q]', 'karate dsl')</span>
+  <span class="name">driver 'https://www.google.com/'</span>
   
-  <span class="lead-duration duration">490ms</span>
+  <span class="lead-duration duration">36s 307ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+  <div class="inner-level">
+    <div class="docstring indention">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-7">
+          <a>Doc string</a>
+      </div>
+      <div id="msg-7" class="collapse collapsable-details">
+        <pre>16:24:44.121 preferred port 9222 not available, will use: 4648</pre>
+      </div>
+    </div>
+  </div>
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">And</span>
+  <span class="name">input('input[name=q]', 'fb')</span>
+  
+  <span class="lead-duration duration">980ms</span>
 
   </div>
 
@@ -302,15 +480,26 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief failed">
   <span class="keyword indention">When</span>
-  <span class="name">click('input[name=btnI]')</span>
+  <span class="name">click('input[name=btn2]')</span>
   
-  <span class="lead-duration duration">6s 701ms</span>
+  <span class="lead-duration duration">3s 188ms</span>
 
   </div>
 
         
+
+  <div class="inner-level">
+    <div class="message indention">
+      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-8">
+          <a>com.intuit.karate.exception.KarateException: google_search.feature:24 - evaluation (js) failed: click('input[name=btn2]'), js eval failed twice:document.querySelector(&quot;input[name=btn2]&quot;).click(), error: {&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:43&quot;,&quot;objectId&quot;:&quot;-389969863174622083.1.3&quot;}</a>
+      </div>
+      <div id="msg-8" class="collapse collapsable-details  in ">
+        <pre>com.intuit.karate.exception.KarateException: google_search.feature:24 - evaluation (js) failed: click('input[name=btn2]'), js eval failed twice:document.querySelector(&quot;input[name=btn2]&quot;).click(), error: {&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:43&quot;,&quot;objectId&quot;:&quot;-389969863174622083.1.3&quot;}</pre>
+      </div>
+    </div>
+  </div>
 
 
         
@@ -323,11 +512,11 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief passed">
+<div class="brief skipped">
   <span class="keyword indention">Then</span>
-  <span class="name">waitForUrl('https://github.com/intuit/karate')</span>
+  <span class="name">waitForUrl('https://www.facebook.com/')</span>
   
-  <span class="lead-duration duration">061ms</span>
+  <span class="lead-duration duration">000ms</span>
 
   </div>
 

@@ -1,9 +1,36 @@
-<testsuite failures="0" name="src/test/java/examples/activity001/google_search.feature" skipped="0" tests="1" time="17.151122">
-  <testcase classname="src.test.java.examples.activity001.google_search" name="Google Chrome" time="17.151122">
-    <system-out>* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
-* driver 'https://www.google.com/' ........................................ passed
-And input('input[name=q]', 'karate dsl') .................................. passed
-When click('input[name=btnI]') ............................................ passed
-Then waitForUrl('https://github.com/intuit/karate') ....................... passed</system-out>
+<testsuite failures="2" name="src/test/java/examples/activity001/google_search.feature" skipped="0" tests="2" time="95.967839">
+  <testcase classname="src.test.java.examples.activity001.google_search" name="Using Karate Search" time="55.491067">
+    <failure message="google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}">Given configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+And driver 'https://www.google.com/' ...................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}&#13;
+	at ✽.And driver 'https://www.google.com/' (google_search.feature:22)&#13;
+
+And input('input[name=q]', 'karate dsl') .................................. skipped
+When click('input[name=btn2]') ............................................ skipped
+Then waitForUrl('https://github.com/intuit/karate') ....................... skipped</failure>
+  </testcase>
+  <testcase classname="src.test.java.examples.activity001.google_search" name="Using Facebook Search" time="40.476772">
+    <failure message="google_search.feature:24 - evaluation (js) failed: click('input[name=btn2]'), js eval failed twice:document.querySelector(&quot;input[name=btn2]&quot;).click(), error: {&quot;type&quot;:&quot;object&quot;,&quot;subtype&quot;:&quot;error&quot;,&quot;className&quot;:&quot;TypeError&quot;,&quot;description&quot;:&quot;TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:43&quot;,&quot;objectId&quot;:&quot;-389969863174622083.1.3&quot;}">Given configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+And driver 'https://www.google.com/' ...................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}&#13;
+	at ✽.And driver 'https://www.google.com/' (google_search.feature:22)&#13;
+
+And input('input[name=q]', 'karate dsl') .................................. skipped
+When click('input[name=btn2]') ............................................ skipped
+Then waitForUrl('https://github.com/intuit/karate') ....................... skipped
+Given configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+And driver 'https://www.google.com/' ...................................... passed
+And input('input[name=q]', 'fb') .......................................... passed
+When click('input[name=btn2]') ............................................ failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: google_search.feature:24 - evaluation (js) failed: click('input[name=btn2]'), js eval failed twice:document.querySelector("input[name=btn2]").click(), error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:43","objectId":"-389969863174622083.1.3"}&#13;
+	at ✽.When click('input[name=btn2]') (google_search.feature:24)&#13;
+
+Then waitForUrl('https://www.facebook.com/') .............................. skipped</failure>
   </testcase>
 </testsuite>
