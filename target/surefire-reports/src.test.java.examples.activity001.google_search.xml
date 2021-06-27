@@ -1,6 +1,6 @@
-<testsuite failures="0" name="src/test/java/examples/activity001/google_search.feature" skipped="0" tests="1" time="17.151122">
-  <testcase classname="src.test.java.examples.activity001.google_search" name="Google Chrome" time="17.151122">
-    <system-out>* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+<testsuite failures="0" name="src/test/java/examples/activity001/google_search.feature" skipped="0" tests="1" time="14.497462">
+  <testcase classname="src.test.java.examples.activity001.google_search" name="Google Chrome" time="14.497462">
+    <system-out>* configure driver = {type:'safaridriver', executable:'/usr/bin/safaridriver'} . passed
 * driver 'https://www.google.com/' ........................................ passed
 And input('input[name=q]', 'karate dsl') .................................. passed
 When click('input[name=btnI]') ............................................ passed
