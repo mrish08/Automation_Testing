@@ -1,1 +1,6 @@
-10:19:54.057 karate.env system property was:  
+12:49:12.708 karate.env system property was:  
+12:48:08.188 karate.env system property was:  
+12:48:08.202 preferred port 5555 not available, will use: 54298
+04.178 waitForUrl: failed after 3 retries and 9069 milliseconds
+04 milliseconds
+the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, executable=/usr/bin/safaridriver, target=null}

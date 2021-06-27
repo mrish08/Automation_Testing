@@ -1,0 +1,14 @@
+<testsuite failures="0" name="src/test/java/examples/narzoles_pup_test/narzoles_pup_tests.feature" skipped="0" tests="1" time="20.790476">
+  <testcase classname="src.test.java.examples.narzoles_pup_test.narzoles_pup_tests" name="PUP News" time="20.790476">
+    <system-out>* configure driver = {type:'safaridriver', executable:'/usr/bin/safaridriver'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+* driver.maximize() ....................................................... passed
+And waitFor("section.box-article-list &gt; header &gt; h2 &gt; a") ................. passed
+And scroll("section.box-article-list &gt; header &gt; h2 &gt; a") .................. passed
+* delay(3000) ............................................................. passed
+And highlight("section.box-article-list &gt; header &gt; h2 &gt; a") ............... passed
+And click("section.box-article-list &gt; header &gt; h2 &gt; a") ................... passed
+Then waitForUrl('https://www.pup.edu.ph/news/') ........................... passed
+* delay(3000) ............................................................. passed</system-out>
+  </testcase>
+</testsuite>
