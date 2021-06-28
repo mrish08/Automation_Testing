@@ -6609,3 +6609,300 @@ java.lang.RuntimeException: webdriver session create status 500, {"value":{"stac
 12:49:33.838 [safaridriver_1624769352874] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 137 - [/usr/bin/safaridriver, --port=5555]
 12:49:33.840 [safaridriver_1624769352874] DEBUG com.intuit.karate.shell.Command - console readers complete
 12:49:34.200 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/narzoles_pup_test/narzoles_pup_tests.feature
+16:39:51.052 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:39:51.068 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^View About Page$
+16:39:51.378 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+16:39:51.565 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+16:39:51.565 [msedgedriver_1624869591565] DEBUG c.i.k.d.msedgedriver_1624869591565 - command: [src/test/java/examples/jairus_montante/msedgedriver.exe, --port=9515]
+16:39:51.581 [msedgedriver_1624869591565] ERROR com.intuit.karate.shell.Command - command error: [src/test/java/examples/jairus_montante/msedgedriver.exe, --port=9515] - Cannot run program "src/test/java/examples/jairus_montante/msedgedriver.exe" (in directory "target\msedgedriver_1624869591565"): CreateProcess error=2, The system cannot find the file specified
+16:39:51.581 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869591565 - poll attempt #0 for port to be ready - localhost:9515
+16:39:53.909 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869591565 - poll attempt #1 for port to be ready - localhost:9515
+16:39:56.217 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869591565 - poll attempt #2 for port to be ready - localhost:9515
+16:39:58.529 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869591565 - poll attempt #3 for port to be ready - localhost:9515
+16:40:00.847 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869591565 - poll attempt #4 for port to be ready - localhost:9515
+16:40:21.867 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:40:21.898 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^View About Page$
+16:40:22.195 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+16:40:22.383 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+16:40:22.383 [msedgedriver_1624869622383] DEBUG c.i.k.d.msedgedriver_1624869622383 - command: [src/test/java/examples/montante_3_1/msedgedriver.exe, --port=9515]
+16:40:22.398 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869622383 - poll attempt #0 for port to be ready - localhost:9515
+16:40:22.461 [msedgedriver_1624869622383-out] DEBUG c.i.k.d.msedgedriver_1624869622383 - Starting MSEdgeDriver 91.0.864.59 (4456b8ae30dd3a9a0eeae7791b651556ff804cc9) on port 9515
+16:40:22.461 [msedgedriver_1624869622383-out] DEBUG c.i.k.d.msedgedriver_1624869622383 - Only local connections are allowed.
+16:40:22.461 [msedgedriver_1624869622383-out] DEBUG c.i.k.d.msedgedriver_1624869622383 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+16:40:22.461 [msedgedriver_1624869622383-out] DEBUG c.i.k.d.msedgedriver_1624869622383 - MSEdgeDriver was started successfully.
+16:40:23.508 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 39
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"browserName":"edge"}}
+
+16:40:24.809 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1309.52
+1 < 200
+1 < Content-Length: 716
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"msedge","browserVersion":"91.0.864.59","ms:edgeOptions":{"debuggerAddress":"localhost:57845"},"msedge":{"msedgedriverVersion":"91.0.864.59 (4456b8ae30dd3a9a0eeae7791b651556ff804cc9)","userDataDir":"C:\\Users\\JAIRUS\\AppData\\Local\\Temp\\scoped_dir7524_407472905"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"7c826de48e9882716362106a58a478f3"}}
+
+16:40:24.824 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869622383 - init session id: 7c826de48e9882716362106a58a478f3
+16:40:24.824 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.msedgedriver_1624869622383 - activate not implemented for mswebdriver
+16:40:25.238 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/7c826de48e9882716362106a58a478f3/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 32
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.pup.edu.ph"}
+
+16:40:40.690 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 15438.78
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+16:40:40.833 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/7c826de48e9882716362106a58a478f3/execute/sync
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 158
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.evaluate(\"//a[normalize-space(text())='About PUP']\", document, null, 9, null).singleNodeValue.getBoundingClientRect()","args":[]}
+
+16:40:40.896 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 53.80
+3 < 200
+3 < Content-Length: 107
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"bottom":150,"height":30,"left":93,"right":221,"toJSON":{},"top":120,"width":128,"x":93,"y":120}}
+
+16:40:40.904 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/7c826de48e9882716362106a58a478f3/actions
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 91
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"actions":[{"id":"1","type":"pointer","actions":[{"x":93,"y":120,"type":"pointerMove"}]}]}
+
+16:40:41.021 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 116.52
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+16:40:41.111 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/7c826de48e9882716362106a58a478f3/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 151
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.evaluate(\"//a[normalize-space(text())='University Profile']\", document, null, 9, null).singleNodeValue.click()","args":[]}
+
+16:40:46.252 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5139.48
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+16:40:46.278 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/7c826de48e9882716362106a58a478f3/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:40:46.292 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 11.07
+6 < 200
+6 < Content-Length: 41
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.pup.edu.ph/about/"}
+
+16:40:46.299 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/7c826de48e9882716362106a58a478f3/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:40:47.745 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1459.93
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+16:40:47.761 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/7c826de48e9882716362106a58a478f3
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:40:49.055 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1295.69
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+16:40:49.055 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: msedgedriver_1624869622383
+16:40:49.090 [msedgedriver_1624869622383] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [src/test/java/examples/montante_3_1/msedgedriver.exe, --port=9515]
+16:40:49.091 [msedgedriver_1624869622383] DEBUG com.intuit.karate.shell.Command - console readers complete
+16:40:49.150 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/montante_3_1/About_Page.feature
+16:45:13.090 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+16:45:13.130 [pool-1-thread-1] INFO  com.intuit.karate - found scenario at line: 4 - ^View About Page$
+16:45:13.474 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+16:45:13.688 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+16:45:13.690 [msedgedriver_1624869913686] DEBUG c.i.k.d.msedgedriver_1624869913686 - command: [src/test/java/examples/montante_3_1/msedgedriver.exe, --port=9515]
+16:45:13.701 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869913686 - poll attempt #0 for port to be ready - localhost:9515
+16:45:13.754 [msedgedriver_1624869913686-out] DEBUG c.i.k.d.msedgedriver_1624869913686 - Starting MSEdgeDriver 91.0.864.59 (4456b8ae30dd3a9a0eeae7791b651556ff804cc9) on port 9515
+16:45:13.754 [msedgedriver_1624869913686-out] DEBUG c.i.k.d.msedgedriver_1624869913686 - Only local connections are allowed.
+16:45:13.754 [msedgedriver_1624869913686-out] DEBUG c.i.k.d.msedgedriver_1624869913686 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping MSEdgeDriver safe.
+16:45:13.761 [msedgedriver_1624869913686-out] DEBUG c.i.k.d.msedgedriver_1624869913686 - MSEdgeDriver was started successfully.
+16:45:14.828 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 39
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"browserName":"edge"}}
+
+16:45:15.833 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 999.50
+1 < 200
+1 < Content-Length: 716
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"msedge","browserVersion":"91.0.864.59","ms:edgeOptions":{"debuggerAddress":"localhost:51883"},"msedge":{"msedgedriverVersion":"91.0.864.59 (4456b8ae30dd3a9a0eeae7791b651556ff804cc9)","userDataDir":"C:\\Users\\JAIRUS\\AppData\\Local\\Temp\\scoped_dir6040_334010184"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"88f3bd5d0ed2f5776b725f0a6719b13f"}}
+
+16:45:15.844 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.msedgedriver_1624869913686 - init session id: 88f3bd5d0ed2f5776b725f0a6719b13f
+16:45:15.871 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.msedgedriver_1624869913686 - activate not implemented for mswebdriver
+16:45:16.443 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 32
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.pup.edu.ph"}
+
+16:45:24.368 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7923.81
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+16:45:24.509 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/execute/sync
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 158
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.evaluate(\"//a[normalize-space(text())='About PUP']\", document, null, 9, null).singleNodeValue.getBoundingClientRect()","args":[]}
+
+16:45:24.521 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 11.02
+3 < 200
+3 < Content-Length: 107
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"bottom":150,"height":30,"left":93,"right":221,"toJSON":{},"top":120,"width":128,"x":93,"y":120}}
+
+16:45:24.530 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/actions
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 91
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"actions":[{"id":"1","type":"pointer","actions":[{"x":93,"y":120,"type":"pointerMove"}]}]}
+
+16:45:24.573 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 42.31
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+16:45:24.641 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 151
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.evaluate(\"//a[normalize-space(text())='University Profile']\", document, null, 9, null).singleNodeValue.click()","args":[]}
+
+16:45:29.380 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4738.52
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+16:45:29.402 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:45:29.410 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7.53
+6 < 200
+6 < Content-Length: 41
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.pup.edu.ph/about/"}
+
+16:45:29.417 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:45:30.176 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 757.85
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+16:45:30.184 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/88f3bd5d0ed2f5776b725f0a6719b13f
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+16:45:31.141 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 955.24
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+16:45:31.142 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: msedgedriver_1624869913686
+16:45:31.157 [msedgedriver_1624869913686] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [src/test/java/examples/montante_3_1/msedgedriver.exe, --port=9515]
+16:45:31.158 [msedgedriver_1624869913686] DEBUG com.intuit.karate.shell.Command - console readers complete
+16:45:31.240 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/montante_3_1/About_Page.feature
