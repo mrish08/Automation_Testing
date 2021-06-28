@@ -1,0 +1,9 @@
+<testsuite failures="0" name="src/test/java/examples/montante_3_1/About_Page.feature" skipped="0" tests="1" time="15.744005">
+  <testcase classname="src.test.java.examples.montante_3_1.About_Page" name="View About Page" time="15.744005">
+    <system-out>* configure driver = { type: 'msedgedriver', executable: 'src/test/java/examples/montante_3_1/msedgedriver.exe', webDriverSession: { capabilities: { browserName: 'edge' } } } . passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And mouse().move('{a}About PUP').go() ..................................... passed
+And click('{a}University Profile') ........................................ passed
+Then waitForUrl('https://www.pup.edu.ph/about') ........................... passed</system-out>
+  </testcase>
+</testsuite>
