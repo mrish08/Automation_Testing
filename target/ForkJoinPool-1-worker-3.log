@@ -1,6 +1,7 @@
-12:49:12.708 karate.env system property was:  
-12:48:08.188 karate.env system property was:  
-12:48:08.202 preferred port 5555 not available, will use: 54298
-04.178 waitForUrl: failed after 3 retries and 9069 milliseconds
-04 milliseconds
-the 'Allow Remote Automation' option in Safari's Develop menu to control Safari via WebDriver."}}, options: {type=safaridriver, executable=/usr/bin/safaridriver, target=null}
+20:56:30.131 karate.env system property was:  
+20:56:49.851 waitForUrl - retry #1
+20:56:53.079 karate.env system property was:  
+20:56:53.112 preferred port 9222 not available, will use: 60837
+20:57:02.090 waitForUrl - retry #1
+failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=A12F8ABF49247428B40964900D0689CD}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+: failed after 3 retries and 9043 milliseconds

@@ -1,0 +1,21 @@
+<testsuite failures="0" name="src/test/java/examples/diamola3_1/pup_test.feature" skipped="0" tests="2" time="34.382152">
+  <testcase classname="src.test.java.examples.diamola3_1.pup_test" name="Open PUP Bookstore page" time="22.350495">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Students') .................................................. passed
+When click('{a}PUP Bookstore') ............................................ passed
+Then waitForUrl('www.pup.edu.ph/bookstore/') .............................. passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.diamola3_1.pup_test" name="Open PUP Quezon City page" time="12.031657">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Students') .................................................. passed
+When click('{a}PUP Bookstore') ............................................ passed
+Then waitForUrl('www.pup.edu.ph/bookstore/') .............................. passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Branches and Campuses') ..................................... passed
+When click('{a}Quezon City') .............................................. passed
+Then waitForUrl('www.pup.edu.ph/quezoncity/') ............................. passed</system-out>
+  </testcase>
+</testsuite>
