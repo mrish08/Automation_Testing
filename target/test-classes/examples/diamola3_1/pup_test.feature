@@ -1,7 +1,7 @@
 @smoke
 Feature: PUP_Website
 
-  Scenario Outline: Open PUP <name>
+  Scenario Outline: PUP <name>
     * configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}
     * driver 'https://www.pup.edu.ph/'
     And click('<btn1>')

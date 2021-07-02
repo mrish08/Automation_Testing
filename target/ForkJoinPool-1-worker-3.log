@@ -1,7 +1,15 @@
-20:56:30.131 karate.env system property was:  
-20:56:49.851 waitForUrl - retry #1
-20:56:53.079 karate.env system property was:  
-20:56:53.112 preferred port 9222 not available, will use: 60837
-20:57:02.090 waitForUrl - retry #1
-failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=A12F8ABF49247428B40964900D0689CD}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
-: failed after 3 retries and 9043 milliseconds
+12:13:57.479 karate.env system property was:  
+12:14:09.304 waitForUrl - retry #1
+12:14:12.349 karate.env system property was:  
+12:14:12.354 preferred port 9222 not available, will use: 59336
+12:14:26.017 waitForUrl - retry #1
+12:14:29.066 karate.env system property was:  
+12:14:29.070 preferred port 9222 not available, will use: 51553
+12:14:38.539 waitForUrl - retry #1
+12:14:41.543 waitForUrl - retry #2
+12:14:44.589 karate.env system property was:  
+12:14:44.593 preferred port 9222 not available, will use: 54375
+12:14:53.819 waitForUrl - retry #1
+12:14:56.898 karate.env system property was:  
+12:14:56.977 preferred port 9222 not available, will use: 59070
+12:15:04.670 waitForUrl - retry #1

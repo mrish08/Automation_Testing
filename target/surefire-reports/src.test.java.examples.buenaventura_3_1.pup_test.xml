@@ -1,0 +1,87 @@
+<testsuite failures="0" name="src/test/java/examples/buenaventura_3_1/pup_test.feature" skipped="0" tests="5" time="69.927156">
+  <testcase classname="src.test.java.examples.buenaventura_3_1.pup_test" name="Academic - PUP Website Graduate Studies" time="14.75468">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Graduate Studies') ......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/academic/graduatestudies') ........ passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.buenaventura_3_1.pup_test" name="Academic - PUP Website Colleges" time="16.674424">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Graduate Studies') ......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/academic/graduatestudies') ........ passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Colleges') ................................................. passed
+Then waitForUrl('https://www.pup.edu.ph/academic/colleges') ............... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.buenaventura_3_1.pup_test" name="Academic - PUP Website Academic Programs" time="15.49143">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Graduate Studies') ......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/academic/graduatestudies') ........ passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Colleges') ................................................. passed
+Then waitForUrl('https://www.pup.edu.ph/academic/colleges') ............... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Academic Programs') ........................................ passed
+Then waitForUrl('https://www.pup.edu.ph/academic/programs') ............... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.buenaventura_3_1.pup_test" name="Academic - PUP Website University Registrar" time="12.244793">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Graduate Studies') ......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/academic/graduatestudies') ........ passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Colleges') ................................................. passed
+Then waitForUrl('https://www.pup.edu.ph/academic/colleges') ............... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Academic Programs') ........................................ passed
+Then waitForUrl('https://www.pup.edu.ph/academic/programs') ............... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Students') .................................................. passed
+When click('{a}University Registrar') ..................................... passed
+Then waitForUrl('https://www.pup.edu.ph/studentservices/registrar/') ...... passed</system-out>
+  </testcase>
+  <testcase classname="src.test.java.examples.buenaventura_3_1.pup_test" name="Academic - PUP Website Student Publications" time="10.761829">
+    <system-out>* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Graduate Studies') ......................................... passed
+Then waitForUrl('https://www.pup.edu.ph/academic/graduatestudies') ........ passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Colleges') ................................................. passed
+Then waitForUrl('https://www.pup.edu.ph/academic/colleges') ............... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Academic') .................................................. passed
+When click('{a}Academic Programs') ........................................ passed
+Then waitForUrl('https://www.pup.edu.ph/academic/programs') ............... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Students') .................................................. passed
+When click('{a}University Registrar') ..................................... passed
+Then waitForUrl('https://www.pup.edu.ph/studentservices/registrar/') ...... passed
+* configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And click('{a}Students') .................................................. passed
+When click('{a}Publications') ............................................. passed
+Then waitForUrl('https://www.pup.edu.ph/studentservices/publications') .... passed</system-out>
+  </testcase>
+</testsuite>
