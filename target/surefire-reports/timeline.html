@@ -12,8 +12,8 @@
   <body>
     <div id="visualization"></div>
     <script>
-var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-3"}]);
-var items = new vis.DataSet([{"id":1,"group":1,"content":"xml_test[1:3]","start":7176,"end":8339,"title":"xml_test[1:3] 07:30:07.176-07:30:08.339 Google Version Test"}]);
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"google_search[1.1:20]","start":3558,"end":69010,"title":"google_search[1.1:20] 07:30:03.558-07:31:09.010 Using Karate Search"},{"id":2,"group":1,"content":"google_search[1.2:20]","start":69011,"end":128204,"title":"google_search[1.2:20] 07:31:09.011-07:32:08.204 Using Facebook Search"}]);
 var container = document.getElementById('visualization');
 var timeline = new vis.Timeline(container);
 timeline.setOptions({ groupOrder: 'content' });

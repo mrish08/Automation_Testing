@@ -15235,3 +15235,295 @@ function selectNodeText(selectElement, event)
 16:43:14.324 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
 16:43:16.095 [ForkJoinPool-1-worker-3] INFO  com.intuit.karate - karate.env system property was:  
 16:43:18.073 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/activity001/xml_test.feature
+13:48:16.271 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:48:16.515 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+13:48:17.418 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/Cortuna/db.feature
+13:52:38.978 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:52:39.437 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+13:52:40.504 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/Cortuna/db.feature
+13:58:08.807 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+13:58:09.405 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+13:58:11.101 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/Cortuna/db.feature
+14:11:44.807 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:11:45.454 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:11:47.115 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/Cortuna/db.feature
+14:13:42.977 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:13:43.317 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:13:44.638 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:17:40.450 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:17:40.852 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:17:42.582 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:20:16.470 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:20:16.985 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:20:19.131 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:21:31.917 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:21:32.170 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:21:33.031 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:25:18.196 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:25:18.590 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:25:20.073 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:26:45.558 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:26:45.932 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:26:47.093 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:34:12.304 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:34:12.666 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:34:13.888 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:38:13.787 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:38:14.551 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:38:15.011 [ForkJoinPool-1-worker-1] INFO  examples.activity001.DbUtils - init jdbc template: jdbc:sqlserver://ACER\CLAIRE;databasename=karate_db;integratedSecurity=true;
+14:38:30.427 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:41:32.997 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:41:33.402 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:41:33.950 [ForkJoinPool-1-worker-1] INFO  examples.activity001.DbUtils - init jdbc template: jdbc:sqlserver://ACER\CLAIRE;databasename=karate_db;integratedSecurity=true;
+14:41:49.366 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+14:45:40.283 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+14:45:40.677 [ForkJoinPool-1-worker-1] INFO  com.intuit.karate - karate.env system property was:  
+14:45:41.276 [ForkJoinPool-1-worker-1] INFO  examples.activity001.DbUtils - init jdbc template: jdbc:sqlserver://ACER;databasename=karate_db;integratedSecurity=true;
+14:45:57.904 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/db.feature
+21:08:08.468 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:08:08.890 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+21:08:10.000 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+21:08:10.000 [chromedriver_1645621689968] DEBUG c.i.k.d.chromedriver_1645621689968 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621689968]
+21:08:10.171 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621689968 - poll attempt #0 for port to be ready - localhost:9515
+21:08:12.484 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621689968 - poll attempt #1 for port to be ready - localhost:9515
+21:08:13.672 [chromedriver_1645621689968-out] DEBUG c.i.k.d.chromedriver_1645621689968 - Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 9515
+21:08:13.672 [chromedriver_1645621689968-out] DEBUG c.i.k.d.chromedriver_1645621689968 - Only local connections are allowed.
+21:08:13.672 [chromedriver_1645621689968-out] DEBUG c.i.k.d.chromedriver_1645621689968 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21:08:13.797 [chromedriver_1645621689968-out] DEBUG c.i.k.d.chromedriver_1645621689968 - ChromeDriver was started successfully.
+21:08:15.739 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+21:08:18.495 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2725.84
+1 < 500
+1 < Content-Length: 1089
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe","stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n"}}
+
+21:08:18.510 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}, request: [method: POST, responseTime: 2725.8421, body: {"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}]
+21:08:18.510 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1645621689968 - webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}
+21:08:18.510 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1645621689968
+21:08:18.510 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chromedriver.exe, target=null}
+java.lang.RuntimeException: webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:65)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:42)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:272)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+21:08:18.526 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 1026
+21:08:18.526 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 1026
+21:08:18.526 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621698526 - poll attempt #0 for port to be ready - localhost:1026
+21:08:18.526 [chromedriver_1645621698526] DEBUG c.i.k.d.chromedriver_1645621698526 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=1026, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621698526]
+21:08:18.839 [chromedriver_1645621698526-out] DEBUG c.i.k.d.chromedriver_1645621698526 - Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 1026
+21:08:18.839 [chromedriver_1645621698526-out] DEBUG c.i.k.d.chromedriver_1645621698526 - Only local connections are allowed.
+21:08:18.839 [chromedriver_1645621698526-out] DEBUG c.i.k.d.chromedriver_1645621698526 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+21:08:18.964 [chromedriver_1645621698526-out] DEBUG c.i.k.d.chromedriver_1645621698526 - ChromeDriver was started successfully.
+21:08:19.089 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:1026/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:1026
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+21:08:19.417 [chromedriver_1645621689968] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621689968]
+21:08:19.417 [chromedriver_1645621689968] DEBUG com.intuit.karate.shell.Command - console readers complete
+21:08:21.924 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2823.66
+1 < 500
+1 < Content-Length: 1089
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe","stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n"}}
+
+21:08:21.924 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}, request: [method: POST, responseTime: 2823.6615, body: {"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}]
+21:08:21.924 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1645621698526 - webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}
+21:08:21.924 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1645621698526
+21:08:21.924 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chromedriver.exe, target=null}
+java.lang.RuntimeException: webdriver session create status 500, {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00F23733+2504499]\n\tOrdinal0 [0x00EBC401+2081793]\n\tOrdinal0 [0x00DC2628+1058344]\n\tOrdinal0 [0x00DE071A+1181466]\n\tOrdinal0 [0x00DDC58C+1164684]\n\tOrdinal0 [0x00DD9DC3+1154499]\n\tOrdinal0 [0x00E09B82+1350530]\n\tOrdinal0 [0x00E097DA+1349594]\n\tOrdinal0 [0x00E05D4B+1334603]\n\tOrdinal0 [0x00DE22B4+1188532]\n\tOrdinal0 [0x00DE3149+1192265]\n\tGetHandleVerifier [0x0109FB8C+1512252]\n\tGetHandleVerifier [0x0114B0DF+2214031]\n\tGetHandleVerifier [0x00FA4BC3+484211]\n\tGetHandleVerifier [0x00FA3E69+480793]\n\tOrdinal0 [0x00EC218D+2105741]\n\tOrdinal0 [0x00EC66E8+2123496]\n\tOrdinal0 [0x00EC6827+2123815]\n\tOrdinal0 [0x00ECFB73+2161523]\n\tBaseThreadInitThunk [0x771EFA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77C67A4E+238]\n","error":"session not created","message":"session not created: This version of ChromeDriver only supports Chrome version 91\nCurrent browser version is 98.0.4758.102 with binary path C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe"}}
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:65)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:42)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:272)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+21:08:21.986 [chromedriver_1645621698526] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=1026, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621698526]
+21:08:21.986 [chromedriver_1645621698526] DEBUG com.intuit.karate.shell.Command - console readers complete
+21:08:23.158 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+21:10:23.144 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+21:10:23.634 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+21:10:25.361 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+21:10:25.369 [chromedriver_1645621825357] DEBUG c.i.k.d.chromedriver_1645621825357 - command: [C:/Program Files/Google/Chrome/Application/chrome.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621825357]
+21:10:25.375 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #0 for port to be ready - localhost:9515
+21:10:27.966 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #1 for port to be ready - localhost:9515
+21:10:30.090 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:14540:0223/211030.089:ERROR:device_event_log_impl.cc(214)] [21:10:30.089] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:10:30.090 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:14540:0223/211030.090:ERROR:device_event_log_impl.cc(214)] [21:10:30.089] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:10:30.092 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:14540:0223/211030.091:ERROR:device_event_log_impl.cc(214)] [21:10:30.091] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:10:30.668 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #2 for port to be ready - localhost:9515
+21:10:33.308 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #3 for port to be ready - localhost:9515
+21:10:35.675 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #4 for port to be ready - localhost:9515
+21:10:36.032 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:9940:0223/211036.032:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+21:10:36.033 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:9940:0223/211036.032:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+21:10:36.033 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:9940:0223/211036.032:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+21:10:36.134 [chromedriver_1645621825357-out] DEBUG c.i.k.d.chromedriver_1645621825357 - [10444:9940:0223/211036.134:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+21:10:38.277 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #5 for port to be ready - localhost:9515
+21:10:40.976 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #6 for port to be ready - localhost:9515
+21:10:43.592 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #7 for port to be ready - localhost:9515
+21:10:46.287 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #8 for port to be ready - localhost:9515
+21:10:48.879 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #9 for port to be ready - localhost:9515
+21:10:51.632 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #10 for port to be ready - localhost:9515
+21:10:54.268 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #11 for port to be ready - localhost:9515
+21:10:56.679 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #12 for port to be ready - localhost:9515
+21:10:59.326 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #13 for port to be ready - localhost:9515
+21:11:01.823 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #14 for port to be ready - localhost:9515
+21:11:04.424 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #15 for port to be ready - localhost:9515
+21:11:06.876 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #16 for port to be ready - localhost:9515
+21:11:09.601 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #17 for port to be ready - localhost:9515
+21:11:12.249 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #18 for port to be ready - localhost:9515
+21:11:14.978 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #19 for port to be ready - localhost:9515
+21:11:17.678 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621825357 - poll attempt #20 for port to be ready - localhost:9515
+21:11:25.657 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+21:11:30.701 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 5033 milliseconds for URL: http://localhost:9515/session
+21:11:30.702 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:11:30.706 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+com.intuit.karate.exception.KarateException: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.intuit.karate.core.ScenarioContext.clientInvoke(ScenarioContext.java:750)
+	at com.intuit.karate.core.ScenarioContext.method(ScenarioContext.java:798)
+	at com.intuit.karate.Http.post(Http.java:126)
+	at com.intuit.karate.Http.post(Http.java:131)
+	at com.intuit.karate.Http.post(Http.java:121)
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:58)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:42)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:272)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+21:11:30.715 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 6656
+21:11:30.716 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 6656
+21:11:30.723 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #0 for port to be ready - localhost:6656
+21:11:30.727 [chromedriver_1645621890715] DEBUG c.i.k.d.chromedriver_1645621890715 - command: [C:/Program Files/Google/Chrome/Application/chrome.exe, --port=6656, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1645621890715]
+21:11:33.393 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #1 for port to be ready - localhost:6656
+21:11:35.921 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #2 for port to be ready - localhost:6656
+21:11:37.459 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:8348:0223/211137.459:ERROR:device_event_log_impl.cc(214)] [21:11:37.459] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:11:37.460 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:8348:0223/211137.460:ERROR:device_event_log_impl.cc(214)] [21:11:37.460] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:11:37.462 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:8348:0223/211137.462:ERROR:device_event_log_impl.cc(214)] [21:11:37.462] USB: usb_device_handle_win.cc:1049 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+21:11:38.476 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #3 for port to be ready - localhost:6656
+21:11:40.433 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:9356:0223/211140.433:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+21:11:40.434 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:9356:0223/211140.434:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+21:11:40.466 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:9356:0223/211140.466:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+21:11:41.111 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #4 for port to be ready - localhost:6656
+21:11:41.785 [chromedriver_1645621890715-out] DEBUG c.i.k.d.chromedriver_1645621890715 - [8980:9356:0223/211141.785:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+21:11:43.578 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #5 for port to be ready - localhost:6656
+21:11:46.128 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #6 for port to be ready - localhost:6656
+21:11:48.685 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #7 for port to be ready - localhost:6656
+21:11:51.180 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #8 for port to be ready - localhost:6656
+21:11:53.779 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #9 for port to be ready - localhost:6656
+21:11:56.499 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #10 for port to be ready - localhost:6656
+21:11:59.174 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #11 for port to be ready - localhost:6656
+21:12:01.762 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #12 for port to be ready - localhost:6656
+21:12:04.471 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #13 for port to be ready - localhost:6656
+21:12:07.386 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #14 for port to be ready - localhost:6656
+21:12:10.230 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #15 for port to be ready - localhost:6656
+21:12:12.974 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #16 for port to be ready - localhost:6656
+21:12:15.380 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #17 for port to be ready - localhost:6656
+21:12:17.775 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #18 for port to be ready - localhost:6656
+21:12:20.325 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #19 for port to be ready - localhost:6656
+21:12:22.981 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1645621890715 - poll attempt #20 for port to be ready - localhost:6656
+21:12:25.416 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:6656/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:6656
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+21:12:29.901 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4484 milliseconds for URL: http://localhost:6656/session
+21:12:29.901 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+21:12:29.901 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+com.intuit.karate.exception.KarateException: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+	at com.intuit.karate.core.ScenarioContext.clientInvoke(ScenarioContext.java:750)
+	at com.intuit.karate.core.ScenarioContext.method(ScenarioContext.java:798)
+	at com.intuit.karate.Http.post(Http.java:126)
+	at com.intuit.karate.Http.post(Http.java:131)
+	at com.intuit.karate.Http.post(Http.java:121)
+	at com.intuit.karate.driver.WebDriver.<init>(WebDriver.java:58)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.<init>(ChromeWebDriver.java:42)
+	at com.intuit.karate.driver.chrome.ChromeWebDriver.start(ChromeWebDriver.java:49)
+	at com.intuit.karate.driver.DriverOptions.start(DriverOptions.java:272)
+	at com.intuit.karate.core.ScenarioContext.driver(ScenarioContext.java:1041)
+	at com.intuit.karate.StepActions.driver(StepActions.java:391)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.intuit.karate.core.Engine.executeStep(Engine.java:150)
+	at com.intuit.karate.core.ScenarioExecutionUnit.execute(ScenarioExecutionUnit.java:234)
+	at com.intuit.karate.core.ScenarioExecutionUnit.run(ScenarioExecutionUnit.java:319)
+	at java.util.concurrent.ForkJoinTask$AdaptedRunnableAction.exec(ForkJoinTask.java:1386)
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:289)
+	at java.util.concurrent.ForkJoinPool$WorkQueue.runTask(ForkJoinPool.java:1056)
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
+21:12:31.154 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature

@@ -17,7 +17,7 @@ Feature: Search in Google
 #    When click('input[name=btnI]')
 #    Then waitForUrl('https://www.facebook.com/')
 
-  Scenario Outline: Using <name>
+  Scenario Outline: Using <name>e
     Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
     And driver 'https://www.google.com/'
     And input('input[name=q]', '<value>')

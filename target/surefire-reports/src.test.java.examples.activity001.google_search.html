@@ -1,170 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
-      
-    <head>
-        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-            
-        <meta charset="utf-8">
-            
-        <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-            
-        <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
-            
-        <link href="res/karate-report.css" rel="stylesheet" type="text/css">
-            
-        <link href="favicon.ico" rel="shortcut icon">
-            <script src="res/jquery.min.js" type="text/javascript"></script>
+<!DOCTYPE HTML><html lang="en">
+  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <link href="res/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="res/karate-report.css" rel="stylesheet" type="text/css">
+    <link href="favicon.ico" rel="shortcut icon">
+    <script src="res/jquery.min.js" type="text/javascript"></script>
     <script src="res/jquery.tablesorter.min.js" type="text/javascript"></script>
     <script src="res/bootstrap.min.js" type="text/javascript"></script>
     <script src="res/karate-report.js" type="text/javascript"></script>
-    
-        <title>src.test.java.examples.activity001.google_search</title>
-          
-    </head>
-      
-    <body>
-            
-        <div id="root-container">
-                  
-            <div id="leftnav">
-                        
-                <div class="nav-logo">
-                              <a href="karate-summary.html">
+    <title>src.test.java.examples.activity001.google_search</title>
+  </head>
+  <body>
+    <div id="root-container">
+      <div id="leftnav">
+        <div class="nav-logo">
+          <a href="karate-summary.html">
             <img alt="Karate" src="res/karate-logo.svg">
           </a>
-          
-                    <div class="nav-count">
-                                    
-                        <div class="bg-success" id="nav-pass">0</div>
-                                    
-                        <div class="bg-danger" id="nav-fail">2</div>
-                                  
-                    </div>
-                            
-                </div>
-                        
-                <div id="nav-type">Scenarios</div>
-                         
-        
-                <div id="nav-date">2021-06-26 04:25:25 PM</div>
-                        
-      
-                <div class="nav-container">
-                    <div class="nav-item failed">
-                        <a href="#[1.1:20]">[1.1:20] Using Karate Search </a>
-                    </div>
-                    <div class="nav-item failed">
-                        <a href="#[1.2:20]">[1.2:20] Using Facebook Search </a>
-                    </div>
-                </div>
-            </div>
-                  
-            <div id="content">
-                      
-                <div class="page-heading alert alert-primary">
-                    <a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/examples/activity001/google_search.feature</span><span class="feature-description">Search in Google</span>
-                </div>
-                <div class="scenario">
-                    <div class="scenario-heading" id="[1.1:20]">
-                        <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario Outline: [1.1:20]</span><span class="scenario-name">Using Karate Search </span>
-                        </div>
-                        <div class="scenario-time failed">ms: 55491</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="1">
-                            <div class="step-ref passed">1</div>
-                            <div class="step-cell passed">Given configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</div>
-                        </div>
-                        <div class="time-cell passed">1</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="2">
-                            <div class="step-ref failed">2</div>
-                            <div class="step-cell failed">And driver 'https://www.google.com/'</div>
-                        </div>
-                        <div class="time-cell failed">55490</div>
-                    </div>
-                    <div class="preformatted" data-parent="2">16:24:44.095 driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
-google_search.feature:22 - driver config / start failed: failed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</div>
-                    <div class="step-row">
-                        <div class="step-container" id="3">
-                            <div class="step-ref skipped">3</div>
-                            <div class="step-cell skipped">And input('input[name=q]', 'karate dsl')</div>
-                        </div>
-                        <div class="time-cell skipped">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="4">
-                            <div class="step-ref skipped">4</div>
-                            <div class="step-cell skipped">When click('input[name=btn2]')</div>
-                        </div>
-                        <div class="time-cell skipped">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="5">
-                            <div class="step-ref skipped">5</div>
-                            <div class="step-cell skipped">Then waitForUrl('https://github.com/intuit/karate')</div>
-                        </div>
-                        <div class="time-cell skipped">0</div>
-                    </div>
-                </div>
-                <div class="scenario">
-                    <div class="scenario-heading" id="[1.2:20]">
-                        <div class="heading-container">
-                            <div class="scenario-tags">
-                                <a class="badge badge-primary" href="karate-tags.html">smoke</a>
-                            </div>
-                            <span class="scenario-keyword">Scenario Outline: [1.2:20]</span><span class="scenario-name">Using Facebook Search </span>
-                        </div>
-                        <div class="scenario-time failed">ms: 40477</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="6">
-                            <div class="step-ref passed">6</div>
-                            <div class="step-cell passed">Given configure driver = {type:'chrome', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</div>
-                        </div>
-                        <div class="time-cell passed">0</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="7">
-                            <div class="step-ref passed">7</div>
-                            <div class="step-cell passed">And driver 'https://www.google.com/'</div>
-                        </div>
-                        <div class="time-cell passed">36307</div>
-                    </div>
-                    <div class="preformatted" data-parent="7">16:24:44.121 preferred port 9222 not available, will use: 4648</div>
-                    <div class="step-row">
-                        <div class="step-container" id="8">
-                            <div class="step-ref passed">8</div>
-                            <div class="step-cell passed">And input('input[name=q]', 'fb')</div>
-                        </div>
-                        <div class="time-cell passed">980</div>
-                    </div>
-                    <div class="step-row">
-                        <div class="step-container" id="9">
-                            <div class="step-ref failed">9</div>
-                            <div class="step-cell failed">When click('input[name=btn2]')</div>
-                        </div>
-                        <div class="time-cell failed">3189</div>
-                    </div>
-                    <div class="preformatted" data-parent="9">google_search.feature:24 - evaluation (js) failed: click('input[name=btn2]'), js eval failed twice:document.querySelector("input[name=btn2]").click(), error: {"type":"object","subtype":"error","className":"TypeError","description":"TypeError: Cannot read property 'click' of null\n    at &lt;anonymous&gt;:1:43","objectId":"-389969863174622083.1.3"}</div>
-                    <div class="step-row">
-                        <div class="step-container" id="10">
-                            <div class="step-ref skipped">10</div>
-                            <div class="step-cell skipped">Then waitForUrl('https://www.facebook.com/')</div>
-                        </div>
-                        <div class="time-cell skipped">0</div>
-                    </div>
-                </div>
-            </div>
-                
+          <div class="nav-count">
+            <div class="bg-success" id="nav-pass">0</div>
+            <div class="bg-danger" id="nav-fail">2</div>
+          </div>
         </div>
-           
-  
-    </body>
-    
+        <div id="nav-type">Scenarios</div>         
+        <div id="nav-date">2022-02-23 09:12:31 PM</div>        
+      <div class="nav-container"><div class="nav-item failed"><a href="#[1.1:20]">[1.1:20] Using Karate Search </a></div><div class="nav-item failed"><a href="#[1.2:20]">[1.2:20] Using Facebook Search </a></div></div></div>
+      <div id="content">
+      <div class="page-heading alert alert-primary"><a href="karate-summary.html">Summary</a><span class="feature-label">|</span><a href="karate-tags.html">Tags</a><span class="feature-label">|</span><span class="feature-label">Feature:</span><span class="feature-name">src/test/java/examples/activity001/google_search.feature</span><span class="feature-description">Search in Google</span></div><div class="scenario"><div class="scenario-heading" id="[1.1:20]"><div class="heading-container"><div class="scenario-tags"><a class="badge badge-primary" href="karate-tags.html">smoke</a></div><span class="scenario-keyword">Scenario Outline: [1.1:20]</span><span class="scenario-name">Using Karate Search </span></div><div class="scenario-time failed">ms: 65423</div></div><div class="step-row"><div class="step-container" id="1"><div class="step-ref passed">1</div><div class="step-cell passed">Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="2"><div class="step-ref failed">2</div><div class="step-cell failed">And driver 'https://www.google.com/'</div></div><div class="time-cell failed">65423</div></div><div class="preformatted" data-parent="2">21:11:30.707 driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+google_search.feature:22 - driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</div><div class="step-row"><div class="step-container" id="3"><div class="step-ref skipped">3</div><div class="step-cell skipped">And input('input[name=q]', 'karate dsl')</div></div><div class="time-cell skipped">0</div></div><div class="step-row"><div class="step-container" id="4"><div class="step-ref skipped">4</div><div class="step-cell skipped">When click('input[name=btn2]')</div></div><div class="time-cell skipped">0</div></div><div class="step-row"><div class="step-container" id="5"><div class="step-ref skipped">5</div><div class="step-cell skipped">Then waitForUrl('https://github.com/intuit/karate')</div></div><div class="time-cell skipped">0</div></div></div><div class="scenario"><div class="scenario-heading" id="[1.2:20]"><div class="heading-container"><div class="scenario-tags"><a class="badge badge-primary" href="karate-tags.html">smoke</a></div><span class="scenario-keyword">Scenario Outline: [1.2:20]</span><span class="scenario-name">Using Facebook Search </span></div><div class="scenario-time failed">ms: 59195</div></div><div class="step-row"><div class="step-container" id="6"><div class="step-ref passed">6</div><div class="step-cell passed">Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</div></div><div class="time-cell passed">0</div></div><div class="step-row"><div class="step-container" id="7"><div class="step-ref failed">7</div><div class="step-cell failed">And driver 'https://www.google.com/'</div></div><div class="time-cell failed">59195</div></div><div class="preformatted" data-parent="7">21:11:30.716 preferred port 9515 not available, will use: 6656
+21:12:29.901 driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+google_search.feature:22 - driver config / start failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</div><div class="step-row"><div class="step-container" id="8"><div class="step-ref skipped">8</div><div class="step-cell skipped">And input('input[name=q]', 'fb')</div></div><div class="time-cell skipped">0</div></div><div class="step-row"><div class="step-container" id="9"><div class="step-ref skipped">9</div><div class="step-cell skipped">When click('input[name=btn2]')</div></div><div class="time-cell skipped">0</div></div><div class="step-row"><div class="step-container" id="10"><div class="step-ref skipped">10</div><div class="step-cell skipped">Then waitForUrl('https://www.facebook.com/')</div></div><div class="time-cell skipped">0</div></div></div></div>
+    </div>   
+  </body>
 </html>
