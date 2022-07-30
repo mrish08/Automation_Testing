@@ -51,9 +51,9 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                36,
-                4,
-                8,
+                54,
+                2,
+                2,
                 0,
                 0
             ],
@@ -94,7 +94,7 @@ $(document).ready(function() {
                         var allData = data.datasets[tooltipItem.datasetIndex].data;
                         var tooltipLabel = data.labels[tooltipItem.index];
                         var tooltipData = allData[tooltipItem.index];
-                        var tooltipPercentage = Math.round(10000 * tooltipData / 48) / 100;
+                        var tooltipPercentage = Math.round(10000 * tooltipData / 58) / 100;
                         return tooltipLabel + ": " + tooltipData + " (" + tooltipPercentage + "%)";
                     }
                 }
@@ -107,8 +107,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                4,
-                4
+                6,
+                2
             ],
             backgroundColor: [
                 "#00B000",
@@ -157,8 +157,8 @@ $(document).ready(function() {
     var chartData = {
         datasets: [{
             data: [
-                   3,
-                   3
+                   4,
+                   2
                ],
                backgroundColor: [
                 "#00B000",
@@ -232,7 +232,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Automation_Testing</td>
-            <td>23 Feb 2022, 21:12</td>
+            <td>30 Jul 2022, 11:17</td>
     </tr>
   </tbody>
 </table>
@@ -346,19 +346,19 @@ $(document).ready(function() {
           <tr>
         <td class="tagname"><a href="report-feature_src-test-java-examples-activity001-google_search-feature_1.html">src/test/java/examples/activity001/google_search.feature</a></td>
         
-        <td      class="passed"    >2</td>
-        <td      class="failed"    >2</td>
-        <td     class="skipped"   >6</td>
+        <td      class="passed"    >20</td>
         <td >0</td>
         <td >0</td>
-        <td class="total">10</td>
+        <td >0</td>
+        <td >0</td>
+        <td class="total">20</td>
 
+        <td  class="passed"    >2</td>
         <td >0</td>
-        <td  class="failed"    >2</td>
         <td class="total">2</td>
 
-        <td class="duration" data-value="124618076500">2m 4s 618ms</td>
-        <td class="failed">Failed</td>
+        <td class="duration" data-value="23219824900">23s 219ms</td>
+        <td class="passed">Passed</td>
       </tr>
           <tr>
         <td class="tagname"><a href="report-feature_src-test-java-examples-activity001-intro-feature_2.html">src/test/java/examples/activity001/intro.feature</a></td>
@@ -433,33 +433,33 @@ $(document).ready(function() {
   <tfoot class="total">
     <tr>
       <td>6</td>
-            <td>36</td>
-      <td>4</td>
-      <td>8</td>
+            <td>54</td>
+      <td>2</td>
+      <td>2</td>
       <td>0</td>
       <td>0</td>
-      <td>48</td>
+      <td>58</td>
 
-      <td>4</td>
-      <td>4</td>
+      <td>6</td>
+      <td>2</td>
       <td>8</td>
 
-      <td class="duration">3m 4s 916ms</td>
+      <td class="duration">1m 23s 518ms</td>
       <td></td>
     </tr>
     <tr>
       <td></td>
-            <td>75.00%</td>
-      <td>8.33%</td>
-      <td>16.67%</td>
+            <td>93.10%</td>
+      <td>3.45%</td>
+      <td>3.45%</td>
       <td>0.00%</td>
       <td>0.00%</td>
       <td></td>
-      <td>50.00%</td>
-      <td>50.00%</td>
+      <td>75.00%</td>
+      <td>25.00%</td>
       <td></td>
       <td></td>
-      <td>50.00%</td>
+      <td>66.67%</td>
     </tr>
   </tfoot>
 </table>

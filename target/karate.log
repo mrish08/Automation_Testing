@@ -15527,3 +15527,2031 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localh
 	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1692)
 	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:175)
 21:12:31.154 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+18:27:02.031 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+18:27:02.516 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+18:27:03.637 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+18:27:03.637 [chromedriver_1648031223622] DEBUG c.i.k.d.chromedriver_1648031223622 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1648031223622]
+18:27:03.653 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1648031223622 - poll attempt #0 for port to be ready - localhost:9515
+18:27:05.450 [chromedriver_1648031223622-out] DEBUG c.i.k.d.chromedriver_1648031223622 - Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 9515
+18:27:05.450 [chromedriver_1648031223622-out] DEBUG c.i.k.d.chromedriver_1648031223622 - Only local connections are allowed.
+18:27:05.450 [chromedriver_1648031223622-out] DEBUG c.i.k.d.chromedriver_1648031223622 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+18:27:05.466 [chromedriver_1648031223622-out] DEBUG c.i.k.d.chromedriver_1648031223622 - ChromeDriver was started successfully.
+18:27:07.091 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+18:27:08.487 [chromedriver_1648031223622-out] DEBUG c.i.k.d.chromedriver_1648031223622 - [1648031228.485][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+18:27:08.739 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1569.53
+1 < 200
+1 < Content-Length: 789
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"99.0.4844.82","chrome":{"chromedriverVersion":"98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir10772_280215365"},"goog:chromeOptions":{"debuggerAddress":"localhost:1280"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"e295d2a1e29bd9a908a35cbf13f47388"}}
+
+18:27:08.739 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1648031223622 - init session id: e295d2a1e29bd9a908a35cbf13f47388
+18:27:09.098 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+18:27:13.337 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4234.14
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+18:27:13.444 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+18:27:13.460 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 19.82
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"00fa094d-5e05-4d68-98a5-33656dd673d6"}}
+
+18:27:13.475 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/element/00fa094d-5e05-4d68-98a5-33656dd673d6/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+18:27:13.640 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 158.95
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+18:27:13.661 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+18:27:13.672 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 10.62
+5 < 500
+5 < Content-Length: 1053
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)","stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n"}}
+
+18:27:13.674 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}, request: [method: POST, responseTime: 10.6242, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+18:27:13.676 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.chromedriver_1648031223622 - javascript failed, will retry once: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}
+18:27:16.683 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > POST http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/execute/sync
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Content-Length: 82
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+18:27:16.698 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 15.16
+6 < 500
+6 < Content-Length: 1053
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)","stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n"}}
+
+18:27:16.698 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}, request: [method: POST, responseTime: 15.1559, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+18:27:16.698 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1648031223622 - javascript failed twice: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}
+18:27:16.714 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+18:27:20.869 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4145.31
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+18:27:20.869 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/e295d2a1e29bd9a908a35cbf13f47388
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+18:27:20.932 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 61.89
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+18:27:20.932 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1648031223622
+18:27:20.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 1319
+18:27:20.947 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 1319
+18:27:20.947 [chromedriver_1648031223622] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1648031223622]
+18:27:20.947 [chromedriver_1648031223622] DEBUG com.intuit.karate.shell.Command - console readers complete
+18:27:20.963 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1648031240947 - poll attempt #0 for port to be ready - localhost:1319
+18:27:20.963 [chromedriver_1648031240947] DEBUG c.i.k.d.chromedriver_1648031240947 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=1319, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1648031240947]
+18:27:21.121 [chromedriver_1648031240947-out] DEBUG c.i.k.d.chromedriver_1648031240947 - Starting ChromeDriver 98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151}) on port 1319
+18:27:21.121 [chromedriver_1648031240947-out] DEBUG c.i.k.d.chromedriver_1648031240947 - Only local connections are allowed.
+18:27:21.121 [chromedriver_1648031240947-out] DEBUG c.i.k.d.chromedriver_1648031240947 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+18:27:21.137 [chromedriver_1648031240947-out] DEBUG c.i.k.d.chromedriver_1648031240947 - ChromeDriver was started successfully.
+18:27:21.480 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:1319/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:1319
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+18:27:22.546 [chromedriver_1648031240947-out] DEBUG c.i.k.d.chromedriver_1648031240947 - [1648031242.534][WARNING]: This version of ChromeDriver has not been tested with Chrome version 99.
+18:27:22.568 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1074.68
+1 < 200
+1 < Content-Length: 787
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"99.0.4844.82","chrome":{"chromedriverVersion":"98.0.4758.102 (273bf7ac8c909cde36982d27f66f3c70846a3718-refs/branch-heads/4758@{#1151})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir588_267074947"},"goog:chromeOptions":{"debuggerAddress":"localhost:1322"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"d30977f5bc550bd18b98411af42644d7"}}
+
+18:27:22.570 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1648031240947 - init session id: d30977f5bc550bd18b98411af42644d7
+18:27:22.871 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:1319
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+18:27:25.991 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3112.50
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+18:27:26.009 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:1319
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+18:27:26.024 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 14.48
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"058086cf-6fb9-49dc-8bb0-b87a35a78e70"}}
+
+18:27:26.030 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/element/058086cf-6fb9-49dc-8bb0-b87a35a78e70/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:1319
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+18:27:26.077 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 46.84
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+18:27:26.101 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:1319
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+18:27:26.111 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 9.52
+5 < 500
+5 < Content-Length: 1053
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)","stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n"}}
+
+18:27:26.112 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}, request: [method: POST, responseTime: 9.5194, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+18:27:26.113 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.chromedriver_1648031240947 - javascript failed, will retry once: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}
+18:27:29.120 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > POST http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/execute/sync
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Content-Length: 82
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: localhost:1319
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+18:27:29.136 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 16.87
+6 < 500
+6 < Content-Length: 1053
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)","stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n"}}
+
+18:27:29.136 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}, request: [method: POST, responseTime: 16.8663, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+18:27:29.136 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1648031240947 - javascript failed twice: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x003469A3+2582947]\n\tOrdinal0 [0x002DA6D1+2139857]\n\tOrdinal0 [0x001D3A98+1063576]\n\tOrdinal0 [0x001D62B7+1073847]\n\tOrdinal0 [0x001D617E+1073534]\n\tOrdinal0 [0x001D6A2A+1075754]\n\tOrdinal0 [0x00228C89+1412233]\n\tOrdinal0 [0x0021854C+1344844]\n\tOrdinal0 [0x0022834A+1409866]\n\tOrdinal0 [0x00218366+1344358]\n\tOrdinal0 [0x001F5176+1200502]\n\tOrdinal0 [0x001F6066+1204326]\n\tGetHandleVerifier [0x004EBE02+1675858]\n\tGetHandleVerifier [0x005A036C+2414524]\n\tGetHandleVerifier [0x003DBB01+560977]\n\tGetHandleVerifier [0x003DA8D3+556323]\n\tOrdinal0 [0x002E020E+2163214]\n\tOrdinal0 [0x002E5078+2183288]\n\tOrdinal0 [0x002E51C0+2183616]\n\tOrdinal0 [0x002EEE1C+2223644]\n\tBaseThreadInitThunk [0x7643FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77317A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77317A4E+238]\n\t(No symbol) [0x00000000]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=99.0.4844.82)"}}
+18:27:29.151 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:1319
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+18:27:33.333 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4181.93
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+18:27:33.333 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:1319/session/d30977f5bc550bd18b98411af42644d7
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:1319
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+18:27:33.411 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 74.28
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+18:27:33.411 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1648031240947
+18:27:33.427 [chromedriver_1648031240947] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=1319, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1648031240947]
+18:27:33.427 [chromedriver_1648031240947] DEBUG com.intuit.karate.shell.Command - console readers complete
+18:27:34.427 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+10:59:49.653 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+10:59:50.195 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+10:59:51.767 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9222
+10:59:51.777 [chrome_1659149991741] DEBUG c.i.k.driver.chrome_1659149991741 - command: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1659149991741, --disable-popup-blocking]
+10:59:51.797 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #0 for port to be ready - localhost:9222
+10:59:51.804 [chrome_1659149991741] ERROR com.intuit.karate.shell.Command - command error: [C:\Program Files (x86)\Google\Chrome\Application\chrome.exe, --remote-debugging-port=9222, --no-first-run, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chrome_1659149991741, --disable-popup-blocking] - Cannot run program "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" (in directory "target\chrome_1659149991741"): CreateProcess error=2, The system cannot find the file specified
+10:59:54.089 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #1 for port to be ready - localhost:9222
+10:59:56.393 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #2 for port to be ready - localhost:9222
+10:59:58.696 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #3 for port to be ready - localhost:9222
+11:00:00.986 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #4 for port to be ready - localhost:9222
+11:00:03.301 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #5 for port to be ready - localhost:9222
+11:00:05.610 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #6 for port to be ready - localhost:9222
+11:00:07.880 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #7 for port to be ready - localhost:9222
+11:00:10.142 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #8 for port to be ready - localhost:9222
+11:00:12.442 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #9 for port to be ready - localhost:9222
+11:00:14.706 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #10 for port to be ready - localhost:9222
+11:00:17.006 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #11 for port to be ready - localhost:9222
+11:00:19.304 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #12 for port to be ready - localhost:9222
+11:00:21.565 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #13 for port to be ready - localhost:9222
+11:00:23.850 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #14 for port to be ready - localhost:9222
+11:00:26.133 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #15 for port to be ready - localhost:9222
+11:00:28.433 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #16 for port to be ready - localhost:9222
+11:00:30.727 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #17 for port to be ready - localhost:9222
+11:00:33.025 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #18 for port to be ready - localhost:9222
+11:00:35.334 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #19 for port to be ready - localhost:9222
+11:00:37.624 [ForkJoinPool-1-worker-1] DEBUG c.i.k.driver.chrome_1659149991741 - poll attempt #20 for port to be ready - localhost:9222
+11:00:41.726 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > GET http://localhost:9222
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Host: localhost:9222
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:00:45.841 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4115 milliseconds for URL: http://localhost:9222
+11:00:45.841 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:00:47.852 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #1 waiting for http to be ready at: http://localhost:9222
+11:00:47.855 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > GET http://localhost:9222
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Host: localhost:9222
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:00:51.937 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4081 milliseconds for URL: http://localhost:9222
+11:00:51.938 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:00:53.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #2 waiting for http to be ready at: http://localhost:9222
+11:00:53.949 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > GET http://localhost:9222
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Host: localhost:9222
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:00:58.055 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4105 milliseconds for URL: http://localhost:9222
+11:00:58.056 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:00.066 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #3 waiting for http to be ready at: http://localhost:9222
+11:01:00.068 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > GET http://localhost:9222
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Host: localhost:9222
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:04.158 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4090 milliseconds for URL: http://localhost:9222
+11:01:04.159 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:06.168 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #4 waiting for http to be ready at: http://localhost:9222
+11:01:06.170 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > GET http://localhost:9222
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Host: localhost:9222
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:10.260 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4090 milliseconds for URL: http://localhost:9222
+11:01:10.261 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:12.272 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #5 waiting for http to be ready at: http://localhost:9222
+11:01:12.274 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9222
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9222
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:16.352 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4077 milliseconds for URL: http://localhost:9222
+11:01:16.353 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:18.359 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #6 waiting for http to be ready at: http://localhost:9222
+11:01:18.361 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > GET http://localhost:9222
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9222
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:22.436 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4075 milliseconds for URL: http://localhost:9222
+11:01:22.437 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:24.452 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #7 waiting for http to be ready at: http://localhost:9222
+11:01:24.453 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > GET http://localhost:9222
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9222
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:28.541 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4087 milliseconds for URL: http://localhost:9222
+11:01:28.541 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:30.554 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #8 waiting for http to be ready at: http://localhost:9222
+11:01:30.555 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+9 > GET http://localhost:9222
+9 > Accept-Encoding: gzip,deflate
+9 > Connection: Keep-Alive
+9 > Host: localhost:9222
+9 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:01:34.623 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, http call failed after 4068 milliseconds for URL: http://localhost:9222
+11:01:34.624 [ForkJoinPool-1-worker-1] ERROR com.intuit.karate - http request failed: 
+org.apache.http.conn.HttpHostConnectException: Connect to localhost:9222 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect
+11:01:36.638 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - attempt #9 waiting for http to be ready at: http://localhost:9222
+11:01:36.639 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+10 > GET http://localhost:9222
+10 > Accept-Encoding: gzip,deflate
+10 > Connection: Keep-Alive
+10 > Host: localhost:9222
+10 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:02:02.626 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:02:03.115 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+11:02:04.729 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+11:02:04.731 [chromedriver_1659150124727] DEBUG c.i.k.d.chromedriver_1659150124727 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150124727]
+11:02:04.739 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150124727 - poll attempt #0 for port to be ready - localhost:9515
+11:02:07.111 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150124727 - poll attempt #1 for port to be ready - localhost:9515
+11:02:09.166 [chromedriver_1659150124727-out] DEBUG c.i.k.d.chromedriver_1659150124727 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+11:02:09.166 [chromedriver_1659150124727-out] DEBUG c.i.k.d.chromedriver_1659150124727 - Only local connections are allowed.
+11:02:09.166 [chromedriver_1659150124727-out] DEBUG c.i.k.d.chromedriver_1659150124727 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:02:09.250 [chromedriver_1659150124727-out] DEBUG c.i.k.d.chromedriver_1659150124727 - ChromeDriver was started successfully.
+11:02:09.400 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150124727 - poll attempt #2 for port to be ready - localhost:9515
+11:02:10.736 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:02:17.162 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 6365.82
+1 < 200
+1 < Content-Length: 789
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir2780_76051527"},"goog:chromeOptions":{"debuggerAddress":"localhost:30395"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"89bebbbf91f83354df78cc17bc0b9200"}}
+
+11:02:17.170 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150124727 - init session id: 89bebbbf91f83354df78cc17bc0b9200
+11:02:17.602 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:02:20.496 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2893.17
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:02:20.704 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:02:20.949 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 243.59
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"21e2c3df-31bf-4ac2-9fe2-05192c1f6b3b"}}
+
+11:02:20.963 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/element/21e2c3df-31bf-4ac2-9fe2-05192c1f6b3b/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+11:02:21.167 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 203.57
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:02:21.222 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+11:02:21.900 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 677.45
+5 < 500
+5 < Content-Length: 1021
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n"}}
+
+11:02:21.901 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}, request: [method: POST, responseTime: 677.4538, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+11:02:21.903 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.chromedriver_1659150124727 - javascript failed, will retry once: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}
+11:02:24.917 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > POST http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/execute/sync
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Content-Length: 82
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+11:02:24.926 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7.96
+6 < 500
+6 < Content-Length: 1021
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n"}}
+
+11:02:24.927 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}, request: [method: POST, responseTime: 7.9576, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+11:02:24.928 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1659150124727 - javascript failed twice: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}
+11:02:24.938 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:02:25.665 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 726.57
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:02:25.667 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/89bebbbf91f83354df78cc17bc0b9200
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:02:26.448 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 779.37
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:02:26.448 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150124727
+11:02:26.467 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 30422
+11:02:26.467 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 30422
+11:02:26.501 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150146466 - poll attempt #0 for port to be ready - localhost:30422
+11:02:26.512 [chromedriver_1659150146466] DEBUG c.i.k.d.chromedriver_1659150146466 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30422, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150146466]
+11:02:26.725 [chromedriver_1659150124727] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150124727]
+11:02:26.725 [chromedriver_1659150124727] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:02:26.793 [chromedriver_1659150146466-out] DEBUG c.i.k.d.chromedriver_1659150146466 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 30422
+11:02:26.795 [chromedriver_1659150146466-out] DEBUG c.i.k.d.chromedriver_1659150146466 - Only local connections are allowed.
+11:02:26.795 [chromedriver_1659150146466-out] DEBUG c.i.k.d.chromedriver_1659150146466 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:02:26.804 [chromedriver_1659150146466-out] DEBUG c.i.k.d.chromedriver_1659150146466 - ChromeDriver was started successfully.
+11:02:27.029 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:30422/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:30422
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:02:28.758 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1726.99
+1 < 200
+1 < Content-Length: 790
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir5332_668277509"},"goog:chromeOptions":{"debuggerAddress":"localhost:30425"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"58fb98f19cfbdd398ed6bfaa70715447"}}
+
+11:02:28.760 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150146466 - init session id: 58fb98f19cfbdd398ed6bfaa70715447
+11:02:29.110 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:30422
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:02:33.247 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4136.41
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:02:33.270 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:30422
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:02:33.302 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 31.41
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"52c04134-4c89-4692-b12b-0b44bcfea83f"}}
+
+11:02:33.315 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/element/52c04134-4c89-4692-b12b-0b44bcfea83f/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:30422
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+11:02:33.394 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 78.52
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:02:33.416 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:30422
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+11:02:33.442 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 24.27
+5 < 500
+5 < Content-Length: 1021
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n"}}
+
+11:02:33.444 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}, request: [method: POST, responseTime: 24.2704, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+11:02:33.445 [ForkJoinPool-1-worker-1] WARN  c.i.k.d.chromedriver_1659150146466 - javascript failed, will retry once: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}
+11:02:36.463 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > POST http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/execute/sync
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Content-Length: 82
+6 > Content-Type: application/json; charset=UTF-8
+6 > Host: localhost:30422
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}
+
+11:02:36.471 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7.82
+6 < 500
+6 < Content-Length: 1021
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":{"error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)","stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n"}}
+
+11:02:36.472 [ForkJoinPool-1-worker-1] WARN  com.intuit.karate - http response code: 500, response: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}, request: [method: POST, responseTime: 7.8237, body: {"script":"return document.querySelector(\"input[name=btn2]\").click()","args":[]}]
+11:02:36.473 [ForkJoinPool-1-worker-1] ERROR c.i.k.d.chromedriver_1659150146466 - javascript failed twice: {"value":{"stacktrace":"Backtrace:\n\tOrdinal0 [0x00796463+2188387]\n\tOrdinal0 [0x0072E461+1762401]\n\tOrdinal0 [0x00643D78+802168]\n\tOrdinal0 [0x00646754+812884]\n\tOrdinal0 [0x00646612+812562]\n\tOrdinal0 [0x00646F8A+814986]\n\tOrdinal0 [0x0069D669+1169001]\n\tOrdinal0 [0x0068C7DC+1099740]\n\tOrdinal0 [0x0069CC22+1166370]\n\tOrdinal0 [0x0068C5F6+1099254]\n\tOrdinal0 [0x00666BE0+945120]\n\tOrdinal0 [0x00667AD6+948950]\n\tGetHandleVerifier [0x00A371F2+2712546]\n\tGetHandleVerifier [0x00A2886D+2652765]\n\tGetHandleVerifier [0x0082002A+520730]\n\tGetHandleVerifier [0x0081EE06+516086]\n\tOrdinal0 [0x0073468B+1787531]\n\tOrdinal0 [0x00738E88+1805960]\n\tOrdinal0 [0x00738F75+1806197]\n\tOrdinal0 [0x00741DF1+1842673]\n\tBaseThreadInitThunk [0x75F2FA29+25]\n\tRtlGetAppContainerNamedObjectPath [0x77267A7E+286]\n\tRtlGetAppContainerNamedObjectPath [0x77267A4E+238]\n","error":"javascript error","message":"javascript error: Cannot read properties of null (reading 'click')\n  (Session info: chrome=103.0.5060.134)"}}
+11:02:36.478 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:30422
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:02:39.154 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2675.38
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:02:39.157 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:30422/session/58fb98f19cfbdd398ed6bfaa70715447
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:30422
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:02:39.280 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 121.91
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:02:39.281 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150146466
+11:02:39.298 [chromedriver_1659150146466] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30422, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150146466]
+11:02:39.299 [chromedriver_1659150146466] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:02:40.607 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+11:08:04.476 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:08:04.874 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+11:08:07.469 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+11:08:07.470 [chromedriver_1659150487467] DEBUG c.i.k.d.chromedriver_1659150487467 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150487467]
+11:08:07.478 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150487467 - poll attempt #0 for port to be ready - localhost:9515
+11:08:07.727 [chromedriver_1659150487467-out] DEBUG c.i.k.d.chromedriver_1659150487467 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+11:08:07.728 [chromedriver_1659150487467-out] DEBUG c.i.k.d.chromedriver_1659150487467 - Only local connections are allowed.
+11:08:07.728 [chromedriver_1659150487467-out] DEBUG c.i.k.d.chromedriver_1659150487467 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:08:07.736 [chromedriver_1659150487467-out] DEBUG c.i.k.d.chromedriver_1659150487467 - ChromeDriver was started successfully.
+11:08:08.970 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:08:10.687 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1714.41
+1 < 200
+1 < Content-Length: 790
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir16224_47085757"},"goog:chromeOptions":{"debuggerAddress":"localhost:30604"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"2d762ddeb3af12c89dc01c561443bca1"}}
+
+11:08:10.697 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150487467 - init session id: 2d762ddeb3af12c89dc01c561443bca1
+11:08:11.289 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:08:14.886 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3592.95
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:08:15.080 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:08:15.151 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 67.91
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"fc64e3c7-628b-4a31-9415-e9107a644b9a"}}
+
+11:08:15.162 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/element/fc64e3c7-628b-4a31-9415-e9107a644b9a/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+11:08:15.399 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 236.35
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:08:15.430 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnK]\").click()","args":[]}
+
+11:08:17.771 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2339.11
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:08:17.817 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:17.830 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 12.70
+6 < 200
+6 < Content-Length: 451
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=karate+dsl&source=hp&ei=nKDkYpubN4-QoATkxoSgCQ&iflsig=AJiK0e8AAAAAYuSurIV_5TMuoV_ebng6ScxfNUJvqluk&ved=0ahUKEwib2Yie0Z_5AhUPCIgKHWQjAZQQ4dUDCAc&oq=karate+dsl&gs_lcp=Cgdnd3Mtd2l6EAwyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBCxAxDUAjoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgUILhCABDoICAAQgAQQyQNQAFhhYPQDaABwAHgAgAH3AogB5giSAQUxLjMtM5gBAKABAQ&sclient=gws-wiz"}
+
+11:08:17.830 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+11:08:20.857 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > GET http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/url
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:20.868 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 10.05
+7 < 200
+7 < Content-Length: 451
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=karate+dsl&source=hp&ei=nKDkYpubN4-QoATkxoSgCQ&iflsig=AJiK0e8AAAAAYuSurIV_5TMuoV_ebng6ScxfNUJvqluk&ved=0ahUKEwib2Yie0Z_5AhUPCIgKHWQjAZQQ4dUDCAc&oq=karate+dsl&gs_lcp=Cgdnd3Mtd2l6EAwyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBCxAxDUAjoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgUILhCABDoICAAQgAQQyQNQAFhhYPQDaABwAHgAgAH3AogB5giSAQUxLjMtM5gBAKABAQ&sclient=gws-wiz"}
+
+11:08:20.870 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+11:08:23.884 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > GET http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/url
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:23.889 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4.65
+8 < 200
+8 < Content-Length: 451
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=karate+dsl&source=hp&ei=nKDkYpubN4-QoATkxoSgCQ&iflsig=AJiK0e8AAAAAYuSurIV_5TMuoV_ebng6ScxfNUJvqluk&ved=0ahUKEwib2Yie0Z_5AhUPCIgKHWQjAZQQ4dUDCAc&oq=karate+dsl&gs_lcp=Cgdnd3Mtd2l6EAwyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBCxAxDUAjoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgUILhCABDoICAAQgAQQyQNQAFhhYPQDaABwAHgAgAH3AogB5giSAQUxLjMtM5gBAKABAQ&sclient=gws-wiz"}
+
+11:08:23.890 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+11:08:26.903 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+9 > GET http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/url
+9 > Accept-Encoding: gzip,deflate
+9 > Connection: Keep-Alive
+9 > Host: localhost:9515
+9 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:26.909 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5.46
+9 < 200
+9 < Content-Length: 451
+9 < Content-Type: application/json; charset=utf-8
+9 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=karate+dsl&source=hp&ei=nKDkYpubN4-QoATkxoSgCQ&iflsig=AJiK0e8AAAAAYuSurIV_5TMuoV_ebng6ScxfNUJvqluk&ved=0ahUKEwib2Yie0Z_5AhUPCIgKHWQjAZQQ4dUDCAc&oq=karate+dsl&gs_lcp=Cgdnd3Mtd2l6EAwyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgsILhCABBCxAxDUAjoLCAAQgAQQsQMQgwE6CAgAEIAEELEDOgUILhCABDoICAAQgAQQyQNQAFhhYPQDaABwAHgAgAH3AogB5giSAQUxLjMtM5gBAKABAQ&sclient=gws-wiz"}
+
+11:08:26.910 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 3 retries and 9096 milliseconds
+11:08:26.915 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+10 > DELETE http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1/window
+10 > Accept-Encoding: gzip,deflate
+10 > Connection: Keep-Alive
+10 > Host: localhost:9515
+10 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:28.348 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1432.08
+10 < 200
+10 < Content-Length: 12
+10 < Content-Type: application/json; charset=utf-8
+10 < cache-control: no-cache
+{"value":[]}
+
+11:08:28.351 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+11 > DELETE http://localhost:9515/session/2d762ddeb3af12c89dc01c561443bca1
+11 > Accept-Encoding: gzip,deflate
+11 > Connection: Keep-Alive
+11 > Host: localhost:9515
+11 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:29.525 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1172.57
+11 < 200
+11 < Content-Length: 14
+11 < Content-Type: application/json; charset=utf-8
+11 < cache-control: no-cache
+{"value":null}
+
+11:08:29.526 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150487467
+11:08:29.546 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 30644
+11:08:29.548 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 30644
+11:08:29.549 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150509546 - poll attempt #0 for port to be ready - localhost:30644
+11:08:29.610 [chromedriver_1659150509546] DEBUG c.i.k.d.chromedriver_1659150509546 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30644, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150509546]
+11:08:30.057 [chromedriver_1659150509546-out] DEBUG c.i.k.d.chromedriver_1659150509546 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 30644
+11:08:30.057 [chromedriver_1659150509546-out] DEBUG c.i.k.d.chromedriver_1659150509546 - Only local connections are allowed.
+11:08:30.058 [chromedriver_1659150509546-out] DEBUG c.i.k.d.chromedriver_1659150509546 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:08:30.069 [chromedriver_1659150509546-out] DEBUG c.i.k.d.chromedriver_1659150509546 - ChromeDriver was started successfully.
+11:08:30.098 [chromedriver_1659150487467] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150487467]
+11:08:30.098 [chromedriver_1659150487467] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:08:30.585 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:30644/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:30644
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:08:32.010 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1423.35
+1 < 200
+1 < Content-Length: 791
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir8556_1131456482"},"goog:chromeOptions":{"debuggerAddress":"localhost:30648"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"322dffaa6dcff3c9fe8e6940b4259112"}}
+
+11:08:32.011 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150509546 - init session id: 322dffaa6dcff3c9fe8e6940b4259112
+11:08:32.563 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:30644
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:08:36.664 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4100.27
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:08:36.686 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:30644
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:08:36.711 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 24.54
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"528d6025-99f8-4713-856b-997993913d15"}}
+
+11:08:36.727 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/element/528d6025-99f8-4713-856b-997993913d15/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:30644
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+11:08:36.803 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 74.99
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:08:36.824 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:30644
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnK]\").click()","args":[]}
+
+11:08:39.844 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3019.25
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:08:39.862 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:30644
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:39.883 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 19.98
+6 < 200
+6 < Content-Length: 261
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=fb&source=hp&ei=sqDkYtDSL_aA1e8PlpGwiAE&iflsig=AJiK0e8AAAAAYuSuwgkmQlMlOI-a1lFot1yt_Ixh5a6q&ved=0ahUKEwjQ87-o0Z_5AhV2QPUHHZYIDBEQ4dUDCAc&oq=fb&gs_lcp=Cgdnd3Mtd2l6EAxQAFgHYC1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz"}
+
+11:08:39.884 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+11:08:42.893 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > GET http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/url
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:30644
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:42.906 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 12.25
+7 < 200
+7 < Content-Length: 261
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=fb&source=hp&ei=sqDkYtDSL_aA1e8PlpGwiAE&iflsig=AJiK0e8AAAAAYuSuwgkmQlMlOI-a1lFot1yt_Ixh5a6q&ved=0ahUKEwjQ87-o0Z_5AhV2QPUHHZYIDBEQ4dUDCAc&oq=fb&gs_lcp=Cgdnd3Mtd2l6EAxQAFgHYC1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz"}
+
+11:08:42.907 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+11:08:45.916 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > GET http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/url
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:30644
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:45.922 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5.52
+8 < 200
+8 < Content-Length: 261
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=fb&source=hp&ei=sqDkYtDSL_aA1e8PlpGwiAE&iflsig=AJiK0e8AAAAAYuSuwgkmQlMlOI-a1lFot1yt_Ixh5a6q&ved=0ahUKEwjQ87-o0Z_5AhV2QPUHHZYIDBEQ4dUDCAc&oq=fb&gs_lcp=Cgdnd3Mtd2l6EAxQAFgHYC1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz"}
+
+11:08:45.922 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+11:08:48.937 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+9 > GET http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/url
+9 > Accept-Encoding: gzip,deflate
+9 > Connection: Keep-Alive
+9 > Host: localhost:30644
+9 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:48.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 8.02
+9 < 200
+9 < Content-Length: 261
+9 < Content-Type: application/json; charset=utf-8
+9 < cache-control: no-cache
+{"value":"https://www.google.com/search?q=fb&source=hp&ei=sqDkYtDSL_aA1e8PlpGwiAE&iflsig=AJiK0e8AAAAAYuSuwgkmQlMlOI-a1lFot1yt_Ixh5a6q&ved=0ahUKEwjQ87-o0Z_5AhV2QPUHHZYIDBEQ4dUDCAc&oq=fb&gs_lcp=Cgdnd3Mtd2l6EAxQAFgHYC1oAHAAeACAAQCIAQCSAQCYAQCgAQE&sclient=gws-wiz"}
+
+11:08:48.948 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 3 retries and 9089 milliseconds
+11:08:48.952 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+10 > DELETE http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112/window
+10 > Accept-Encoding: gzip,deflate
+10 > Connection: Keep-Alive
+10 > Host: localhost:30644
+10 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:49.662 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 709.45
+10 < 200
+10 < Content-Length: 12
+10 < Content-Type: application/json; charset=utf-8
+10 < cache-control: no-cache
+{"value":[]}
+
+11:08:49.670 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+11 > DELETE http://localhost:30644/session/322dffaa6dcff3c9fe8e6940b4259112
+11 > Accept-Encoding: gzip,deflate
+11 > Connection: Keep-Alive
+11 > Host: localhost:30644
+11 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:08:50.275 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 603.57
+11 < 200
+11 < Content-Length: 14
+11 < Content-Type: application/json; charset=utf-8
+11 < cache-control: no-cache
+{"value":null}
+
+11:08:50.276 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150509546
+11:08:50.823 [chromedriver_1659150509546] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30644, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150509546]
+11:08:50.823 [chromedriver_1659150509546] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:08:51.253 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+11:10:04.222 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:10:04.835 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+11:10:06.913 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+11:10:06.915 [chromedriver_1659150606912] DEBUG c.i.k.d.chromedriver_1659150606912 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150606912]
+11:10:06.925 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150606912 - poll attempt #0 for port to be ready - localhost:9515
+11:10:07.221 [chromedriver_1659150606912-out] DEBUG c.i.k.d.chromedriver_1659150606912 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+11:10:07.221 [chromedriver_1659150606912-out] DEBUG c.i.k.d.chromedriver_1659150606912 - Only local connections are allowed.
+11:10:07.221 [chromedriver_1659150606912-out] DEBUG c.i.k.d.chromedriver_1659150606912 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:10:07.233 [chromedriver_1659150606912-out] DEBUG c.i.k.d.chromedriver_1659150606912 - ChromeDriver was started successfully.
+11:10:08.582 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:10:09.879 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1294.23
+1 < 200
+1 < Content-Length: 791
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir11628_573107289"},"goog:chromeOptions":{"debuggerAddress":"localhost:30750"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"0194c782ff9ab0d3b1200f4e8cf0e65a"}}
+
+11:10:09.889 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150606912 - init session id: 0194c782ff9ab0d3b1200f4e8cf0e65a
+11:10:10.516 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:10:14.197 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3679.21
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:10:14.326 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:10:14.363 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 35.70
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"1d496e45-97cb-4d0e-962d-61a1b5744e6f"}}
+
+11:10:14.373 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/element/1d496e45-97cb-4d0e-962d-61a1b5744e6f/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+11:10:14.588 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 214.56
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:10:14.622 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:10:21.794 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 7170.72
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:10:21.857 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:22.105 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 247.60
+6 < 200
+6 < Content-Length: 48
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:10:22.106 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+11:10:25.122 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > GET http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/url
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:25.133 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 10.23
+7 < 200
+7 < Content-Length: 48
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:10:25.134 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+11:10:28.143 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > GET http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/url
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:28.245 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 101.59
+8 < 200
+8 < Content-Length: 48
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:10:28.246 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+11:10:31.253 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+9 > GET http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/url
+9 > Accept-Encoding: gzip,deflate
+9 > Connection: Keep-Alive
+9 > Host: localhost:9515
+9 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:31.258 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4.90
+9 < 200
+9 < Content-Length: 48
+9 < Content-Type: application/json; charset=utf-8
+9 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:10:31.259 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 3 retries and 9406 milliseconds
+11:10:31.264 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+10 > DELETE http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a/window
+10 > Accept-Encoding: gzip,deflate
+10 > Connection: Keep-Alive
+10 > Host: localhost:9515
+10 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:35.459 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4194.79
+10 < 200
+10 < Content-Length: 12
+10 < Content-Type: application/json; charset=utf-8
+10 < cache-control: no-cache
+{"value":[]}
+
+11:10:35.461 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+11 > DELETE http://localhost:9515/session/0194c782ff9ab0d3b1200f4e8cf0e65a
+11 > Accept-Encoding: gzip,deflate
+11 > Connection: Keep-Alive
+11 > Host: localhost:9515
+11 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:35.601 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 139.27
+11 < 200
+11 < Content-Length: 14
+11 < Content-Type: application/json; charset=utf-8
+11 < cache-control: no-cache
+{"value":null}
+
+11:10:35.601 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150606912
+11:10:35.622 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 30813
+11:10:35.623 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 30813
+11:10:35.625 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150635621 - poll attempt #0 for port to be ready - localhost:30813
+11:10:35.627 [chromedriver_1659150635621] DEBUG c.i.k.d.chromedriver_1659150635621 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30813, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150635621]
+11:10:35.718 [chromedriver_1659150606912] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150606912]
+11:10:35.719 [chromedriver_1659150606912] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:10:35.858 [chromedriver_1659150635621-out] DEBUG c.i.k.d.chromedriver_1659150635621 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 30813
+11:10:35.858 [chromedriver_1659150635621-out] DEBUG c.i.k.d.chromedriver_1659150635621 - Only local connections are allowed.
+11:10:35.858 [chromedriver_1659150635621-out] DEBUG c.i.k.d.chromedriver_1659150635621 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:10:35.876 [chromedriver_1659150635621-out] DEBUG c.i.k.d.chromedriver_1659150635621 - ChromeDriver was started successfully.
+11:10:36.146 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:30813/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:30813
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:10:37.341 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1194.12
+1 < 200
+1 < Content-Length: 792
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir10360_1671485048"},"goog:chromeOptions":{"debuggerAddress":"localhost:30817"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"1052ac98497dbf072e0edff9c3acc35a"}}
+
+11:10:37.342 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150635621 - init session id: 1052ac98497dbf072e0edff9c3acc35a
+11:10:37.763 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:30813
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:10:41.739 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3972.49
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:10:41.770 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:30813
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:10:41.806 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 35.89
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"a81dc553-255d-4f69-9bb2-d5a108189d53"}}
+
+11:10:41.818 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/element/a81dc553-255d-4f69-9bb2-d5a108189d53/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:30813
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+11:10:41.938 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 119.77
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:10:41.963 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:30813
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:10:43.939 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1975.22
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:10:43.971 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:30813
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:43.988 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 15.70
+6 < 200
+6 < Content-Length: 37
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.facebook.com/"}
+
+11:10:43.995 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:30813
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:44.366 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 370.05
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:10:44.370 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:30813/session/1052ac98497dbf072e0edff9c3acc35a
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:30813
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:10:45.114 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 743.03
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:10:45.116 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150635621
+11:10:45.899 [chromedriver_1659150635621] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=30813, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150635621]
+11:10:45.900 [chromedriver_1659150635621] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:10:46.267 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+11:15:03.341 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:15:03.863 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+11:15:05.376 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+11:15:05.377 [chromedriver_1659150905374] DEBUG c.i.k.d.chromedriver_1659150905374 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150905374]
+11:15:05.386 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150905374 - poll attempt #0 for port to be ready - localhost:9515
+11:15:05.515 [chromedriver_1659150905374-out] DEBUG c.i.k.d.chromedriver_1659150905374 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+11:15:05.515 [chromedriver_1659150905374-out] DEBUG c.i.k.d.chromedriver_1659150905374 - Only local connections are allowed.
+11:15:05.515 [chromedriver_1659150905374-out] DEBUG c.i.k.d.chromedriver_1659150905374 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:15:05.525 [chromedriver_1659150905374-out] DEBUG c.i.k.d.chromedriver_1659150905374 - ChromeDriver was started successfully.
+11:15:07.021 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:15:08.726 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1702.50
+1 < 200
+1 < Content-Length: 790
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir244_1114195502"},"goog:chromeOptions":{"debuggerAddress":"localhost:31094"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"cc89ddcc0577748bc549c37ab421cabd"}}
+
+11:15:08.734 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150905374 - init session id: cc89ddcc0577748bc549c37ab421cabd
+11:15:09.778 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:15:12.874 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3096.43
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:15:13.119 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:15:13.187 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 64.41
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"033bdb1c-5284-4c88-91bd-ed1083782324"}}
+
+11:15:13.199 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/element/033bdb1c-5284-4c88-91bd-ed1083782324/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+11:15:13.343 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 143.76
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:15:13.380 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:15:18.466 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5085.79
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:15:18.539 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:18.925 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 384.41
+6 < 200
+6 < Content-Length: 48
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:15:18.925 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #1
+11:15:21.947 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > GET http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/url
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:21.962 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 9.93
+7 < 200
+7 < Content-Length: 48
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:15:21.963 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #2
+11:15:24.975 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > GET http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/url
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:24.980 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4.55
+8 < 200
+8 < Content-Length: 48
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:15:24.981 [ForkJoinPool-1-worker-1] DEBUG c.intuit.karate.driver.DriverOptions - waitForUrl - retry #3
+11:15:27.986 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+9 > GET http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/url
+9 > Accept-Encoding: gzip,deflate
+9 > Connection: Keep-Alive
+9 > Host: localhost:9515
+9 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:28.002 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 14.48
+9 < 200
+9 < Content-Length: 48
+9 < Content-Type: application/json; charset=utf-8
+9 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:15:28.002 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - waitForUrl: failed after 3 retries and 9465 milliseconds
+11:15:28.009 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+10 > DELETE http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd/window
+10 > Accept-Encoding: gzip,deflate
+10 > Connection: Keep-Alive
+10 > Host: localhost:9515
+10 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:32.245 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4229.68
+10 < 200
+10 < Content-Length: 12
+10 < Content-Type: application/json; charset=utf-8
+10 < cache-control: no-cache
+{"value":[]}
+
+11:15:32.258 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+11 > DELETE http://localhost:9515/session/cc89ddcc0577748bc549c37ab421cabd
+11 > Accept-Encoding: gzip,deflate
+11 > Connection: Keep-Alive
+11 > Host: localhost:9515
+11 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:32.409 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 148.07
+11 < 200
+11 < Content-Length: 14
+11 < Content-Type: application/json; charset=utf-8
+11 < cache-control: no-cache
+{"value":null}
+
+11:15:32.410 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150905374
+11:15:32.428 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 31155
+11:15:32.428 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 31155
+11:15:32.429 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150932427 - poll attempt #0 for port to be ready - localhost:31155
+11:15:32.431 [chromedriver_1659150932427] DEBUG c.i.k.d.chromedriver_1659150932427 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=31155, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150932427]
+11:15:32.454 [chromedriver_1659150905374] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150905374]
+11:15:32.455 [chromedriver_1659150905374] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:15:32.631 [chromedriver_1659150932427-out] DEBUG c.i.k.d.chromedriver_1659150932427 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 31155
+11:15:32.632 [chromedriver_1659150932427-out] DEBUG c.i.k.d.chromedriver_1659150932427 - Only local connections are allowed.
+11:15:32.632 [chromedriver_1659150932427-out] DEBUG c.i.k.d.chromedriver_1659150932427 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:15:32.641 [chromedriver_1659150932427-out] DEBUG c.i.k.d.chromedriver_1659150932427 - ChromeDriver was started successfully.
+11:15:32.956 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:31155/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:31155
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:15:34.449 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1491.02
+1 < 200
+1 < Content-Length: 792
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir16180_2121177860"},"goog:chromeOptions":{"debuggerAddress":"localhost:31158"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"320540756192d3e3bb77d49f537c6180"}}
+
+11:15:34.451 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659150932427 - init session id: 320540756192d3e3bb77d49f537c6180
+11:15:35.051 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:31155
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:15:39.014 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3961.51
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:15:39.041 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:31155
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:15:39.089 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 48.16
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"6451a62e-67b4-48f4-9df1-e8d24869cdf5"}}
+
+11:15:39.099 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/element/6451a62e-67b4-48f4-9df1-e8d24869cdf5/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:31155
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+11:15:39.152 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 53.11
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:15:39.175 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:31155
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:15:40.992 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1816.51
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:15:41.008 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:31155
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:41.015 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 5.91
+6 < 200
+6 < Content-Length: 37
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.facebook.com/"}
+
+11:15:41.024 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:31155/session/320540756192d3e3bb77d49f537c6180/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:31155
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:45.426 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4402.00
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:15:45.430 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:31155/session/320540756192d3e3bb77d49f537c6180
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:31155
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:15:45.518 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 86.83
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:15:45.518 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659150932427
+11:15:45.559 [chromedriver_1659150932427] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=31155, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659150932427]
+11:15:45.559 [chromedriver_1659150932427] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:15:46.418 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<fail>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature
+11:16:54.737 [main] INFO  com.intuit.karate.Runner - waiting for parallel features to complete ...
+11:16:55.165 [pool-1-thread-1] INFO  com.intuit.karate - karate.env system property was:  
+11:16:57.698 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 9515
+11:16:57.699 [chromedriver_1659151017695] DEBUG c.i.k.d.chromedriver_1659151017695 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659151017695]
+11:16:57.709 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659151017695 - poll attempt #0 for port to be ready - localhost:9515
+11:16:57.826 [chromedriver_1659151017695-out] DEBUG c.i.k.d.chromedriver_1659151017695 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 9515
+11:16:57.826 [chromedriver_1659151017695-out] DEBUG c.i.k.d.chromedriver_1659151017695 - Only local connections are allowed.
+11:16:57.826 [chromedriver_1659151017695-out] DEBUG c.i.k.d.chromedriver_1659151017695 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:16:57.834 [chromedriver_1659151017695-out] DEBUG c.i.k.d.chromedriver_1659151017695 - ChromeDriver was started successfully.
+11:16:59.716 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:9515/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:9515
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:17:01.113 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1393.07
+1 < 200
+1 < Content-Length: 791
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir2016_1873520645"},"goog:chromeOptions":{"debuggerAddress":"localhost:31261"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"9ecdb196ff9b3a64db7b3bfe3942b920"}}
+
+11:17:01.123 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659151017695 - init session id: 9ecdb196ff9b3a64db7b3bfe3942b920
+11:17:01.601 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:9515
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:17:05.203 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3602.20
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:17:05.342 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:9515
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:17:05.372 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 28.03
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"c3736646-ff12-43ec-a3cf-b856db603723"}}
+
+11:17:05.382 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/element/c3736646-ff12-43ec-a3cf-b856db603723/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 21
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:9515
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"karate dsl"}
+
+11:17:05.687 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 304.46
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:17:05.727 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:9515
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:17:12.017 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 6289.61
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:17:12.191 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:9515
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:12.383 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 192.04
+6 < 200
+6 < Content-Length: 48
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://github.com/karatelabs/karate"}
+
+11:17:12.390 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:9515
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:16.676 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 4285.61
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:17:16.679 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:9515/session/9ecdb196ff9b3a64db7b3bfe3942b920
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:9515
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:16.920 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 240.13
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:17:16.920 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659151017695
+11:17:16.942 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - found / verified free local port: 31318
+11:17:16.943 [ForkJoinPool-1-worker-1] WARN  c.intuit.karate.driver.DriverOptions - preferred port 9515 not available, will use: 31318
+11:17:16.944 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659151036941 - poll attempt #0 for port to be ready - localhost:31318
+11:17:16.947 [chromedriver_1659151036941] DEBUG c.i.k.d.chromedriver_1659151036941 - command: [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=31318, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659151036941]
+11:17:17.070 [chromedriver_1659151017695] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=9515, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659151017695]
+11:17:17.071 [chromedriver_1659151017695] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:17:17.111 [chromedriver_1659151036941-out] DEBUG c.i.k.d.chromedriver_1659151036941 - Starting ChromeDriver 103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853}) on port 31318
+11:17:17.111 [chromedriver_1659151036941-out] DEBUG c.i.k.d.chromedriver_1659151036941 - Only local connections are allowed.
+11:17:17.111 [chromedriver_1659151036941-out] DEBUG c.i.k.d.chromedriver_1659151036941 - Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+11:17:17.119 [chromedriver_1659151036941-out] DEBUG c.i.k.d.chromedriver_1659151036941 - ChromeDriver was started successfully.
+11:17:17.462 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+1 > POST http://localhost:31318/session
+1 > Accept-Encoding: gzip,deflate
+1 > Connection: Keep-Alive
+1 > Content-Length: 57
+1 > Content-Type: application/json; charset=UTF-8
+1 > Host: localhost:31318
+1 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"capabilities":{"alwaysMatch":{"browserName":"chrome"}}}
+
+11:17:18.657 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 1193.54
+1 < 200
+1 < Content-Length: 792
+1 < Content-Type: application/json; charset=utf-8
+1 < cache-control: no-cache
+{"value":{"capabilities":{"acceptInsecureCerts":false,"browserName":"chrome","browserVersion":"103.0.5060.134","chrome":{"chromedriverVersion":"103.0.5060.53 (a1711811edd74ff1cf2150f36ffa3b0dae40b17f-refs/branch-heads/5060@{#853})","userDataDir":"C:\\Users\\Claire\\AppData\\Local\\Temp\\scoped_dir11456_1447971822"},"goog:chromeOptions":{"debuggerAddress":"localhost:31322"},"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platformName":"windows","proxy":{},"setWindowRect":true,"strictFileInteractability":false,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"unhandledPromptBehavior":"dismiss and notify","webauthn:extension:credBlob":true,"webauthn:extension:largeBlob":true,"webauthn:virtualAuthenticators":true},"sessionId":"313f420fd0706f94883154daa8070b55"}}
+
+11:17:18.658 [ForkJoinPool-1-worker-1] DEBUG c.i.k.d.chromedriver_1659151036941 - init session id: 313f420fd0706f94883154daa8070b55
+11:17:19.197 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+2 > POST http://localhost:31318/session/313f420fd0706f94883154daa8070b55/url
+2 > Accept-Encoding: gzip,deflate
+2 > Connection: Keep-Alive
+2 > Content-Length: 33
+2 > Content-Type: application/json; charset=UTF-8
+2 > Host: localhost:31318
+2 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"url":"https://www.google.com/"}
+
+11:17:22.918 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 3719.46
+2 < 200
+2 < Content-Length: 14
+2 < Content-Type: application/json; charset=utf-8
+2 < cache-control: no-cache
+{"value":null}
+
+11:17:22.940 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+3 > POST http://localhost:31318/session/313f420fd0706f94883154daa8070b55/element
+3 > Accept-Encoding: gzip,deflate
+3 > Connection: Keep-Alive
+3 > Content-Length: 48
+3 > Content-Type: application/json; charset=UTF-8
+3 > Host: localhost:31318
+3 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"using":"css selector","value":"input[name=q]"}
+
+11:17:22.967 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 24.67
+3 < 200
+3 < Content-Length: 88
+3 < Content-Type: application/json; charset=utf-8
+3 < cache-control: no-cache
+{"value":{"element-6066-11e4-a52e-4f735466cecf":"71ef0460-0854-4f80-ab12-99ce540894af"}}
+
+11:17:22.975 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+4 > POST http://localhost:31318/session/313f420fd0706f94883154daa8070b55/element/71ef0460-0854-4f80-ab12-99ce540894af/value
+4 > Accept-Encoding: gzip,deflate
+4 > Connection: Keep-Alive
+4 > Content-Length: 13
+4 > Content-Type: application/json; charset=UTF-8
+4 > Host: localhost:31318
+4 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"text":"fb"}
+
+11:17:23.042 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 66.10
+4 < 200
+4 < Content-Length: 14
+4 < Content-Type: application/json; charset=utf-8
+4 < cache-control: no-cache
+{"value":null}
+
+11:17:23.080 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+5 > POST http://localhost:31318/session/313f420fd0706f94883154daa8070b55/execute/sync
+5 > Accept-Encoding: gzip,deflate
+5 > Connection: Keep-Alive
+5 > Content-Length: 82
+5 > Content-Type: application/json; charset=UTF-8
+5 > Host: localhost:31318
+5 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+{"script":"return document.querySelector(\"input[name=btnI]\").click()","args":[]}
+
+11:17:25.332 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 2251.51
+5 < 200
+5 < Content-Length: 14
+5 < Content-Type: application/json; charset=utf-8
+5 < cache-control: no-cache
+{"value":null}
+
+11:17:25.352 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+6 > GET http://localhost:31318/session/313f420fd0706f94883154daa8070b55/url
+6 > Accept-Encoding: gzip,deflate
+6 > Connection: Keep-Alive
+6 > Host: localhost:31318
+6 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:25.366 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 13.77
+6 < 200
+6 < Content-Length: 37
+6 < Content-Type: application/json; charset=utf-8
+6 < cache-control: no-cache
+{"value":"https://www.facebook.com/"}
+
+11:17:25.371 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+7 > DELETE http://localhost:31318/session/313f420fd0706f94883154daa8070b55/window
+7 > Accept-Encoding: gzip,deflate
+7 > Connection: Keep-Alive
+7 > Host: localhost:31318
+7 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:25.732 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 360.01
+7 < 200
+7 < Content-Length: 12
+7 < Content-Type: application/json; charset=utf-8
+7 < cache-control: no-cache
+{"value":[]}
+
+11:17:25.735 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - request:
+8 > DELETE http://localhost:31318/session/313f420fd0706f94883154daa8070b55
+8 > Accept-Encoding: gzip,deflate
+8 > Connection: Keep-Alive
+8 > Host: localhost:31318
+8 > User-Agent: Apache-HttpClient/4.5.12 (Java/1.8.0_292)
+
+11:17:25.989 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate - response time in milliseconds: 254.32
+8 < 200
+8 < Content-Length: 14
+8 < Content-Type: application/json; charset=utf-8
+8 < cache-control: no-cache
+{"value":null}
+
+11:17:25.990 [ForkJoinPool-1-worker-1] DEBUG com.intuit.karate.shell.Command - closing command: chromedriver_1659151036941
+11:17:26.050 [chromedriver_1659151036941] WARN  com.intuit.karate.shell.Command - exit code was non-zero: 1 - [C:/Program Files/Google/Chrome/Application/chromedriver.exe, --port=31318, --user-data-dir=C:\Users\Claire\IdeaProjects\Automation_Testing\target\chromedriver_1659151036941]
+11:17:26.050 [chromedriver_1659151036941] DEBUG com.intuit.karate.shell.Command - console readers complete
+11:17:26.877 [pool-1-thread-1] INFO  com.intuit.karate.Runner - <<pass>> feature 1 of 1: src/test/java/examples/activity001/google_search.feature

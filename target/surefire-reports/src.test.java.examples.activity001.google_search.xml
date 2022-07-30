@@ -1,47 +1,44 @@
-<testsuite failures="2"
+<testsuite failures="0"
            name="src/test/java/examples/activity001/google_search.feature"
            skipped="0"
            tests="2"
-           time="124.618077">
+           time="23.219825">
    <testcase classname="src.test.java.examples.activity001.google_search"
-             name="Using Karate Search"
-             time="65.423066">
-      <failure message="google_search.feature:22 - driver config / start failed: &#xA;org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}">Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
-And driver 'https://www.google.com/' ...................................... failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}&#xD;
-	at ✽.And driver 'https://www.google.com/' (google_search.feature:22)&#xD;
-
-And input('input[name=q]', 'karate dsl') .................................. skipped
-When click('input[name=btn2]') ............................................ skipped
-Then waitForUrl('https://github.com/intuit/karate') ....................... skipped</failure>
+             name="Using different searches - Karate Search"
+             time="14.775814">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to Google' ............................. passed
+* driver 'https://www.google.com/' ........................................ passed
+And def step2 = 'User input text search' .................................. passed
+* input('input[name=q]', 'karate dsl') .................................... passed
+When def step3 = 'User click button' ...................................... passed
+* click('input[name=btnI]') ............................................... passed
+Then def step4 = 'User expected result should display/show in google search result' . passed
+* waitForUrl('https://github.com/karatelabs/karate') ...................... passed</system-out>
    </testcase>
    <testcase classname="src.test.java.examples.activity001.google_search"
-             name="Using Facebook Search"
-             time="59.195011">
-      <failure message="google_search.feature:22 - driver config / start failed: &#xA;org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}">Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
-And driver 'https://www.google.com/' ...................................... failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}&#xD;
-	at ✽.And driver 'https://www.google.com/' (google_search.feature:22)&#xD;
-
-And input('input[name=q]', 'karate dsl') .................................. skipped
-When click('input[name=btn2]') ............................................ skipped
-Then waitForUrl('https://github.com/intuit/karate') ....................... skipped
-Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'} . passed
-And driver 'https://www.google.com/' ...................................... failed
-
-Stack Trace:
-com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}&#xD;
-	at ✽.And driver 'https://www.google.com/' (google_search.feature:22)&#xD;
-
-And input('input[name=q]', 'fb') .......................................... skipped
-When click('input[name=btn2]') ............................................ skipped
-Then waitForUrl('https://www.facebook.com/') .............................. skipped</failure>
+             name="Using different searches - Facebook Search"
+             time="8.444011">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to Google' ............................. passed
+* driver 'https://www.google.com/' ........................................ passed
+And def step2 = 'User input text search' .................................. passed
+* input('input[name=q]', 'karate dsl') .................................... passed
+When def step3 = 'User click button' ...................................... passed
+* click('input[name=btnI]') ............................................... passed
+Then def step4 = 'User expected result should display/show in google search result' . passed
+* waitForUrl('https://github.com/karatelabs/karate') ...................... passed
+Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to Google' ............................. passed
+* driver 'https://www.google.com/' ........................................ passed
+And def step2 = 'User input text search' .................................. passed
+* input('input[name=q]', 'fb') ............................................ passed
+When def step3 = 'User click button' ...................................... passed
+* click('input[name=btnI]') ............................................... passed
+Then def step4 = 'User expected result should display/show in google search result' . passed
+* waitForUrl('https://www.facebook.com/') ................................. passed</system-out>
    </testcase>
 </testsuite>

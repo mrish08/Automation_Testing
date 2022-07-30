@@ -75,7 +75,7 @@ $(document).ready(function() {
   <tbody>
     <tr class="info">
       <td>Automation_Testing</td>
-            <td>23 Feb 2022, 21:12</td>
+            <td>30 Jul 2022, 11:17</td>
     </tr>
   </tbody>
 </table>
@@ -128,19 +128,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@smoke</td>
-                    <td      class="passed"    >2</td>
-          <td      class="failed"    >2</td>
-          <td     class="skipped"   >6</td>
+                    <td      class="passed"    >20</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">10</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">20</td>
 
+          <td  class="passed"    >2</td>
           <td >0</td>
-          <td  class="failed"    >2</td>
           <td class="total">2</td>
 
-          <td class="duration" data-value="124618076500">2m 4s 618ms</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="23219824900">23s 219ms</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -180,14 +180,14 @@ $(document).ready(function() {
   </div>
 
   
-  <span class="lead-duration duration">1m 5s 423ms</span>
+  <span class="lead-duration duration">14s 775ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Using Karate Search</span>
+  <span class="name">Using different searches - Karate Search</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -196,15 +196,15 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-2">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-2">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -214,12 +214,33 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-2" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-2" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</span>
+  <span class="name">def step0 = 'Using Chrome as a browser'</span>
+  
+  <span class="lead-duration duration">040ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -238,42 +259,40 @@ $(document).ready(function() {
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
+  <span class="name">def step1 = 'Browser navigates to Google'</span>
+  
+  <span class="lead-duration duration">013ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
   <span class="name">driver 'https://www.google.com/'</span>
   
-  <span class="lead-duration duration">1m 5s 422ms</span>
+  <span class="lead-duration duration">7s 543ms</span>
 
   </div>
 
         
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-3">
-          <a>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: </a>
-      </div>
-      <div id="msg-3" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
-      </div>
-    </div>
-  </div>
-
 
         
         
-  <div class="inner-level">
-    <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-4">
-          <a>Doc string</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details">
-        <pre>21:11:30.707 driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
-      </div>
-    </div>
-  </div>
 
         
 
@@ -282,11 +301,32 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
+  <span class="name">def step2 = 'User input text search'</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
   <span class="name">input('input[name=q]', 'karate dsl')</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">479ms</span>
 
   </div>
 
@@ -303,11 +343,11 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">click('input[name=btn2]')</span>
+  <span class="name">def step3 = 'User click button'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">005ms</span>
 
   </div>
 
@@ -324,11 +364,53 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
-  <span class="keyword indention">Then</span>
-  <span class="name">waitForUrl('https://github.com/intuit/karate')</span>
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">click('input[name=btnI]')</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">6s 322ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">def step4 = 'User expected result should display/show in google search result'</span>
+  
+  <span class="lead-duration duration">004ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">waitForUrl('https://github.com/karatelabs/karate')</span>
+  
+  <span class="lead-duration duration">361ms</span>
 
   </div>
 
@@ -364,14 +446,14 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
   </div>
 
   
-  <span class="lead-duration duration">59s 195ms</span>
+  <span class="lead-duration duration">8s 444ms</span>
 
 
-    <span data-toggle="collapse" class=" collapsable-control" data-target="#element-5">
+    <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-3">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
-  <span class="name">Using Facebook Search</span>
+  <span class="name">Using different searches - Facebook Search</span>
   
 
        <i class="chevron fa fa-fw"></i>
@@ -380,15 +462,15 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
   </span>
   <div class="description indention"></div>
 
-  <div id="element-5" class="collapse collapsable-details  in ">
+  <div id="element-3" class="collapse collapsable-details ">
     
 
 
     
 <div class="steps inner-level">
-    <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-6">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-4">
     
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
   
@@ -398,12 +480,33 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
 
   </div>
 
-  <div id="steps-6" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-4" class="inner-level collapse collapsable-details ">
           <div class="step">
         
 <div class="brief passed">
   <span class="keyword indention">Given</span>
-  <span class="name">configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chrome.exe'}</span>
+  <span class="name">def step0 = 'Using Chrome as a browser'</span>
+  
+  <span class="lead-duration duration">008ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}</span>
   
   <span class="lead-duration duration">000ms</span>
 
@@ -422,40 +525,47 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:9515 [localh
       </div>
           <div class="step">
         
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">And</span>
-  <span class="name">driver 'https://www.google.com/'</span>
+  <span class="name">def step1 = 'Browser navigates to Google'</span>
   
-  <span class="lead-duration duration">59s 194ms</span>
+  <span class="lead-duration duration">003ms</span>
 
   </div>
 
         
 
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-7">
-          <a>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: </a>
+
+        
+        
+
+        
+
+        
+  
       </div>
-      <div id="msg-7" class="collapse collapsable-details  in ">
-        <pre>com.intuit.karate.exception.KarateException: google_search.feature:22 - driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
-      </div>
-    </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">driver 'https://www.google.com/'</span>
+  
+  <span class="lead-duration duration">5s 984ms</span>
+
   </div>
+
+        
 
 
         
         
   <div class="inner-level">
     <div class="docstring indention">
-            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-8">
+            <div data-toggle="collapse" class="collapsable-control" data-target="#msg-5">
           <a>Doc string</a>
       </div>
-      <div id="msg-8" class="collapse collapsable-details">
-        <pre>21:11:30.716 preferred port 9515 not available, will use: 6656
-21:12:29.901 driver config / start failed: 
-org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localhost/127.0.0.1, localhost/0:0:0:0:0:0:0:1] failed: Connection refused: connect, options: {type=chromedriver, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}</pre>
+      <div id="msg-5" class="collapse collapsable-details">
+        <pre>11:17:16.943 preferred port 9515 not available, will use: 31318</pre>
       </div>
     </div>
   </div>
@@ -467,11 +577,32 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">And</span>
+  <span class="name">def step2 = 'User input text search'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
   <span class="name">input('input[name=q]', 'fb')</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">120ms</span>
 
   </div>
 
@@ -488,11 +619,11 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
   <span class="keyword indention">When</span>
-  <span class="name">click('input[name=btn2]')</span>
+  <span class="name">def step3 = 'User click button'</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">002ms</span>
 
   </div>
 
@@ -509,11 +640,53 @@ org.apache.http.conn.HttpHostConnectException: Connect to localhost:6656 [localh
       </div>
           <div class="step">
         
-<div class="brief skipped">
+<div class="brief passed">
+  <span class="keyword indention">*</span>
+  <span class="name">click('input[name=btnI]')</span>
+  
+  <span class="lead-duration duration">2s 290ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
   <span class="keyword indention">Then</span>
+  <span class="name">def step4 = 'User expected result should display/show in google search result'</span>
+  
+  <span class="lead-duration duration">002ms</span>
+
+  </div>
+
+        
+
+
+        
+        
+
+        
+
+        
+  
+      </div>
+          <div class="step">
+        
+<div class="brief passed">
+  <span class="keyword indention">*</span>
   <span class="name">waitForUrl('https://www.facebook.com/')</span>
   
-  <span class="lead-duration duration">000ms</span>
+  <span class="lead-duration duration">029ms</span>
 
   </div>
 
