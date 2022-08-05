@@ -1,5 +1,6 @@
-16:43:16.141 karate.env system property was:  
-ed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
+05:41:58.936 preferred port 9515 not available, will use: 50228
+05:42:32.128 preferred port 9515 not available, will use: 50344
+Id=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
 16:24:44.121 preferred port 9222 not available, will use: 4648
  
 16:01:08.861 preferred port 9515 not available, will use: 27368
