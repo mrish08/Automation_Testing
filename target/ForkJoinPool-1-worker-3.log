@@ -1,157 +1,114 @@
-16:43:16.141 karate.env system property was:  
-ed to get reply for: [id: 5, method: Browser.getWindowForTarget, params: {targetId=68E8B83954869CF0A245A95EA41767D7}], options: {type=chrome, executable=C:/Program Files/Google/Chrome/Application/chrome.exe, target=null}
-16:24:44.121 preferred port 9222 not available, will use: 4648
- 
-16:01:08.861 preferred port 9515 not available, will use: 27368
-16:01:19.203 waitForUrl - retry #1
-16:01:22.226 waitForUrl - retry #2
-16:01:25.250 waitForUrl - retry #3
-16:01:28.263 waitForUrl: failed after 3 retries and 9071 milliseconds
-4)
-
-13:18:45.686 response time in milliseconds: 520.24
-1 < 200
-1 < Access-Control-Allow-Credentials: true
-1 < Age: 5023
-1 < CF-Cache-Status: HIT
-1 < CF-RAY: 6653fa147ee5e23b-SIN
-1 < Cache-Control: max-age=43200
-1 < Connection: keep-alive
-1 < Content-Type: application/json; charset=utf-8
-1 < Date: Sat, 26 Jun 2021 05:18:46 GMT
-1 < Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
-1 < Expect-CT: max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"
-1 < Expires: -1
-1 < NEL: {"report_to":"cf-nel","max_age":604800}
-1 < Pragma: no-cache
-1 < Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v2?s=iYym3EjcKZnyOhe7fhNaTRPoNT8FLOWQp%2BASiezI6vLOTdhfSbAJzva2vRarTnIiFH1UwxhH4dwpCx6UNzlzzNmUB3ru1NKrIxTrW33A8XpfDb4mmvjS0zPv%2FgJp7Y%2F3QAuUal4wCPxA7A%3D%3D"}],"group":"cf-nel","max_age":604800}
-1 < Server: cloudflare
-1 < Transfer-Encoding: chunked
-1 < Vary: Origin, Accept-Encoding
-1 < Via: 1.1 vegur
-1 < X-Content-Type-Options: nosniff
-1 < X-Powered-By: Express
-1 < X-Ratelimit-Limit: 1000
-1 < X-Ratelimit-Remaining: 997
-1 < X-Ratelimit-Reset: 1624305286
-1 < alt-svc: h3-27=":443"; ma=86400, h3-28=":443"; ma=86400, h3-29=":443"; ma=86400, h3=":443"; ma=86400
-1 < cf-request-id: 0ae85aa0c70000e23b11248000000001
-[
-  {
-    "id": 1,
-    "name": "Leanne Graham",
-    "username": "Bret",
-    "email": "Sincere@april.biz",
-    "address": {
-      "street": "Kulas Light",
-      "suite": "Apt. 556",
-      "city": "Gwenborough",
-      "zipcode": "92998-3874",
-      "geo": {
-        "lat": "-37.3159",
-        "lng": "81.1496"
-      }
-    },
-    "phone": "1-770-736-8031 x56442",
-    "website": "hildegard.org",
-    "company": {
-      "name": "Romaguera-Crona",
-      "catchPhrase": "Multi-layered client-server neural-net",
-      "bs": "harness real-time e-markets"
-    }
-  },
-  {
-    "id": 2,
-    "name": "Ervin Howell",
-    "username": "Antonette",
-    "email": "Shanna@melissa.tv",
-    "address": {
-      "street": "Victor Plains",
-      "suite": "Suite 879",
-      "city": "Wisokyburgh",
-      "zipcode": "90566-7771",
-      "geo": {
-        "lat": "-43.9509",
-        "lng": "-34.4618"
-      }
-    },
-    "phone": "010-692-6593 x09125",
-    "website": "anastasia.net",
-    "company": {
-      "name": "Deckow-Crist",
-      "catchPhrase": "Proactive didactic contingency",
-      "bs": "synergize scalable supply-chains"
-    }
-  },
-  {
-    "id": 3,
-    "name": "Clementine Bauch",
-    "username": "Samantha",
-    "email": "Nathan@yesenia.net",
-    "address": {
-      "street": "Douglas Extension",
-      "suite": "Suite 847",
-      "city": "McKenziehaven",
-      "zipcode": "59590-4157",
-      "geo": {
-        "lat": "-68.6102",
-        "lng": "-47.0653"
-      }
-    },
-    "phone": "1-463-123-4447",
-    "website": "ramiro.info",
-    "company": {
-      "name": "Romaguera-Jacobson",
-      "catchPhrase": "Face to face bifurcated interface",
-      "bs": "e-enable strategic applications"
-    }
-  },
-  {
-    "id": 4,
-    "name": "Patricia Lebsack",
-    "username": "Karianne",
-    "email": "Julianne.OConner@kory.org",
-    "address": {
-      "street": "Hoeger Mall",
-      "suite": "Apt. 692",
-      "city": "South Elvis",
-      "zipcode": "53919-4257",
-      "geo": {
-        "lat": "29.4572",
-        "lng": "-164.2990"
-      }
-    },
-    "phone": "493-170-9623 x156",
-    "website": "kale.biz",
-    "company": {
-      "name": "Robel-Corkery",
-      "catchPhrase": "Multi-tiered zero tolerance productivity",
-      "bs": "transition cutting-edge web services"
-    }
-  },
-  {
-    "id": 5,
-    "name": "Chelsey Dietrich",
-    "username": "Kamren",
-    "email": "Lucio_Hettinger@annie.ca",
-    "address": {
-      "street": "Skiles Walks",
-      "suite": "Suite 351",
-      "city": "Roscoeview",
-      "zipcode": "33263",
-      "geo": {
-        "lat": "-31.8129",
-        "lng": "62.5342"
-      }
-    },
-    "phone": "(254)954-1289",
-    "website": "demarco.info",
-    "company": {
-      "name": "Keebler LLC",
-      "catchPhrase": "User-centric fault-tolerant solution",
-      "bs": "revolutionize end-to-end systems"
-    }
-  },
+17:18:55.408 preferred port 9515 not available, will use: 51600
+s) - retry #2
+20:19:58.301 waitUntil (js) - retry #3
+20:20:01.312 waitUntil (js): failed after 3 retries and 9061 milliseconds
+20:20:05.520 preferred port 9515 not available, will use: 63976
+20:20:18.375 waitUntil (js) - retry #1
+20:20:21.386 waitUntil (js) - retry #2
+20:20:24.399 waitUntil (js) - retry #3
+20:20:27.423 waitUntil (js): failed after 3 retries and 9054 milliseconds
+ pup.edu.ph (Organization Wildcard SSL)07/07/2022Notice/InvitationRequest for Quotation
+			
+				Ramon Segismundo, 1-HRX Singapore CEO, is new PUP professorial chairholder in business06/20/2022NewsNews
+			
+				Joint project between PUP and NCCA organizes two-day webinar on digital technology and documentary heritage06/08/2022NewsNews
+			
+				CMO conducts u-wide Complaints Management Training05/06/2022NewsNews
+			
+				Psychology Department participates in development and launch of PH adapted UTC for substance use disorder05/02/2022NewsNews
+			
+				PUP launches MycoNema Project03/10/2022NewsNews
+			
+				ICPD, GPPB-TSO conduct the First Online Certified Public Procurement Basic Course10/25/2021NewsNews
+			
+				PUP at 117: Celebrating a big journey in the midst of the pandemic10/05/2021NewsNews
+			
+				For Applicants seeking Re-admission (Admission Services Advisory 1 S 2021)09/08/2021AnnouncementBulletin Board
+			
+				For Transferees (Admission Services Advisory 2 S 2021)09/08/2021AnnouncementBulletin Board
+			
+				Update on Release of Results: For Incoming Grade 11 SHS Applicants for SY 2021-202206/04/2021AnnouncementInformation Broadcast
+			
+				PUP among the top HEis in Facebook University Ranking05/10/2021NewsNews
+			
+				PUP places 8th in Unirank's 2021 Top University in the PH Ranking04/28/2021NewsNews
+			
+				DZ1PUP hailed as Continental Leader in an International Radiosports04/19/2021NewsNews
+			
+				Exam Result: OUS Comprehensive Exam (December 2020 and January 2021)04/06/2021AnnouncementBulletin Board
+			
+				Advisory on CAEPUP02/11/2021AnnouncementInformation Broadcast
+			
+				PUP ranks 8th among SUCs, 16th among all HEIs in PH Webometrics World Ranking02/05/2021NewsNews
+			
+				College of Law Entrance Exam (PUPCLEE) for Academic Year 2021-202201/27/2021AnnouncementBulletin Board
+			
+				
+					
+						123456...
+					
+				
+			
+		', expected: 'DENR, PUP', reason: not a sub-string
+20:18:46.081 preferred port 9515 not available, will use: 63700
+20:18:58.901 assertion failed: path: $, actual: '
+			
+				
+					
+						123456...
+					
+				
+			
+				TitleCategoryType
+			
+				Admission Services Advisory for Returnees (PUP Sta. Mesa, Manila)08/03/2022AnnouncementBulletin Board
+			
+				Admission Services Advisory for Transferees (PUP Sta. Mesa, Manila)08/03/2022AnnouncementBulletin Board
+			
+				Request for Quotation: Renewal of Vetting (Authentication and Validation) Services for the website pup.edu.ph (Organization Wildcard SSL)07/07/2022Notice/InvitationRequest for Quotation
+			
+				Ramon Segismundo, 1-HRX Singapore CEO, is new PUP professorial chairholder in business06/20/2022NewsNews
+			
+				Joint project between PUP and NCCA organizes two-day webinar on digital technology and documentary heritage06/08/2022NewsNews
+			
+				CMO conducts u-wide Complaints Management Training05/06/2022NewsNews
+			
+				Psychology Department participates in development and launch of PH adapted UTC for substance use disorder05/02/2022NewsNews
+			
+				PUP launches MycoNema Project03/10/2022NewsNews
+			
+				ICPD, GPPB-TSO conduct the First Online Certified Public Procurement Basic Course10/25/2021NewsNews
+			
+				PUP at 117: Celebrating a big journey in the midst of the pandemic10/05/2021NewsNews
+			
+				For Applicants seeking Re-admission (Admission Services Advisory 1 S 2021)09/08/2021AnnouncementBulletin Board
+			
+				For Transferees (Admission Services Advisory 2 S 2021)09/08/2021AnnouncementBulletin Board
+			
+				Update on Release of Results: For Incoming Grade 11 SHS Applicants for SY 2021-202206/04/2021AnnouncementInformation Broadcast
+			
+				PUP among the top HEis in Facebook University Ranking05/10/2021NewsNews
+			
+				PUP places 8th in Unirank's 2021 Top University in the PH Ranking04/28/2021NewsNews
+			
+				DZ1PUP hailed as Continental Leader in an International Radiosports04/19/2021NewsNews
+			
+				Exam Result: OUS Comprehensive Exam (December 2020 and January 2021)04/06/2021AnnouncementBulletin Board
+			
+				Advisory on CAEPUP02/11/2021AnnouncementInformation Broadcast
+			
+				PUP ranks 8th among SUCs, 16th among all HEIs in PH Webometrics World Ranking02/05/2021NewsNews
+			
+				College of Law Entrance Exam (PUPCLEE) for Academic Year 2021-202201/27/2021AnnouncementBulletin Board
+			
+				
+					
+						123456...
+					
+				
+			
+		', expected: 'DENR, PUP', reason: not a sub-string
+},
   {
     "id": 6,
     "name": "Mrs. Dennis Schulist",

@@ -12,8 +12,8 @@
   <body>
     <div id="visualization"></div>
     <script>
-var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-1"}]);
-var items = new vis.DataSet([{"id":1,"group":1,"content":"google_search[1.1:19]","start":4977,"end":19794,"title":"google_search[1.1:19] 07:30:04.977-07:30:19.794 Using different searches - Karate Search"},{"id":2,"group":1,"content":"google_search[1.2:19]","start":24331,"end":32777,"title":"google_search[1.2:19] 07:30:24.331-07:30:32.777 Using different searches - Facebook Search"}]);
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"pupeduph[1.1:4]","start":833,"end":12716,"title":"pupeduph[1.1:4] 07:30:00.833-07:30:12.716 Testing Search Feature in PUP Site - Karate Search"},{"id":2,"group":1,"content":"pupeduph2[1.1:4]","start":17388,"end":30329,"title":"pupeduph2[1.1:4] 07:30:17.388-07:30:30.329 Using navigation bar of PUP Site - Karate Search"}]);
 var container = document.getElementById('visualization');
 var timeline = new vis.Timeline(container);
 timeline.setOptions({ groupOrder: 'content' });

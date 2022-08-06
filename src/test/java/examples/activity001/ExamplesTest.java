@@ -18,7 +18,7 @@ public class ExamplesTest {
     @Test
     public void testParallel() {
 
-        Results results = Runner.path("src/test/java/examples/activity001/google_search.feature").tags("~@ignore").parallel(1);
+        Results results = Runner.path("src/test/java/examples/esteban_3_1").tags("~@ignore").parallel(1);
         //Results results = Runner.parallel(getClass(), 5);
         generateReport(results.getReportDir());
         assertTrue(results.getErrorMessages(), results.getFailCount() == 0);

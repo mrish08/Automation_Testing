@@ -1,0 +1,29 @@
+<testsuite failures="0"
+           name="src/test/java/examples/activity001/pupeduph.feature"
+           skipped="0"
+           tests="1"
+           time="8.931153">
+   <testcase classname="src.test.java.examples.activity001.pupeduph"
+             name="Testing Search Feature in PUP Site - Karate Search"
+             time="8.931153">
+      <system-out>Given def step1 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step2 = 'Browser Navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And def step3 = 'Maximize Browser' ........................................ passed
+* driver.maximize() ....................................................... passed
+And def step4 = 'wait til complete' ....................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* click('.services-widget') ............................................... passed
+And def step5 = 'User click Applicant Button' ............................. passed
+* click('{^a}Applicant') .................................................. passed
+* driver.screenshot() ..................................................... passed
+And def step6 = 'User input text search' .................................. passed
+* input('#txtSearch', 'BSIT') ............................................. passed
+When def step7 = 'User click search button' ............................... passed
+* click('#btnSearch') ..................................................... passed
+Then def step8 = 'User expected results should be displayed in the website' . passed
+* waitFor('.table') ....................................................... passed
+* screenshot() ............................................................ passed</system-out>
+   </testcase>
+</testsuite>

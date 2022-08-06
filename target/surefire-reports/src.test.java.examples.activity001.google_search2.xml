@@ -1,0 +1,24 @@
+<testsuite failures="0"
+           name="src/test/java/examples/activity001/google_search2.feature"
+           skipped="0"
+           tests="1"
+           time="15.15723">
+   <testcase classname="src.test.java.examples.activity001.google_search2"
+             name="Using navigation bar of PUP Site - Karate Search"
+             time="15.15723">
+      <system-out>Given def step1 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+* driver.maximize() ....................................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* click('.navbar') ........................................................ passed
+* click('{^a}About PUP') .................................................. passed
+* click('.dropdown') ...................................................... passed
+* click('{^a}Logo and Symbols') ........................................... passed
+* click('{^a}Academic') ................................................... passed
+* click('{^a}Graduate Studies') ........................................... passed
+* click('{^a}Students') ................................................... passed
+* click('{^a}Student Publications') ....................................... passed
+* click('{^a}Research') ................................................... passed</system-out>
+   </testcase>
+</testsuite>

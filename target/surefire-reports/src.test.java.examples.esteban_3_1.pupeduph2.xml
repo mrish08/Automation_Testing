@@ -1,0 +1,30 @@
+<testsuite failures="0"
+           name="src/test/java/examples/esteban_3_1/pupeduph2.feature"
+           skipped="0"
+           tests="1"
+           time="12.938148">
+   <testcase classname="src.test.java.examples.esteban_3_1.pupeduph2"
+             name="Using navigation bar of PUP Site - Karate Search"
+             time="12.938148">
+      <system-out>Given def step1 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step2 = 'Browser Navigates to PUP website' ........................ passed
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+And def step3 = 'Maximize Browser' ........................................ passed
+* driver.maximize() ....................................................... passed
+And def step4 = 'Wait the document until complete' ........................ passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step5 = 'User clicks the navigation bar' .......................... passed
+* click('.navbar') ........................................................ passed
+And def step6 = 'User clicks About option' ................................ passed
+* click('{^a}About PUP') .................................................. passed
+And def step7 = 'User clicks dropdown' .................................... passed
+* click('.dropdown') ...................................................... passed
+And def step8 = 'User click Logo and Symbols under dropdown options' ...... passed
+* click('{^a}Logo and Symbols') ........................................... passed
+When def step9 = 'User clicks Academic option in Navigation Bar' .......... passed
+* click('{^a}Academic') ................................................... passed
+Then def step10 = 'User clicks Graduate Studies under Academic dropdown navigation' . passed
+* click('{^a}Graduate Studies') ........................................... passed</system-out>
+   </testcase>
+</testsuite>
