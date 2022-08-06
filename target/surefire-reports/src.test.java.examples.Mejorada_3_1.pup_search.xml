@@ -1,0 +1,110 @@
+<testsuite failures="0"
+           name="src/test/java/examples/Mejorada_3_1/pup_search.feature"
+           skipped="0"
+           tests="2"
+           time="62.67355">
+   <testcase classname="src.test.java.examples.Mejorada_3_1.pup_search"
+             name="Using PUP search bar - President Search"
+             time="28.88322">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* maximize() .............................................................. passed
+And def step3 = 'User click services modal' ............................... passed
+* click('.services-widget') ............................................... passed
+And def step4 = 'User click Student button' ............................... passed
+* click('{^a}Student') .................................................... passed
+And def step5 = 'Take screenshot' ......................................... passed
+* driver.screenshot() ..................................................... passed
+And def step6 = 'Clear input field' ....................................... passed
+* clear('#txtSearch') ..................................................... passed
+And def step7 = 'User search for student' ................................. passed
+* input('#txtSearch', 'student') .......................................... passed
+And def step8 = 'User click button' ....................................... passed
+* click("//a[@id='btnSearch']") ........................................... passed
+And def step9 = 'Wait for the table to load' .............................. passed
+* waitFor('.table') ....................................................... passed
+And def step10 = 'Take screenshot' ........................................ passed
+* driver.screenshot() ..................................................... passed
+And def step11 = 'Clear Input Field' ...................................... passed
+* clear('#txtSearch1') .................................................... passed
+And def step12 = 'User input text search' ................................. passed
+* input('#txtSearch1', 'MMDA') ............................................ passed
+When def step13 = 'User click button' ..................................... passed
+* click('.btn.btn-system.btn-flat') ....................................... passed
+Then def step14 = 'User expected result should display the output in the table' . passed
+* match text('.table') contains 'MMDA' .................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* driver.screenshot() ..................................................... passed</system-out>
+   </testcase>
+   <testcase classname="src.test.java.examples.Mejorada_3_1.pup_search"
+             name="Using PUP search bar - University Search"
+             time="33.79033">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* maximize() .............................................................. passed
+And def step3 = 'User click services modal' ............................... passed
+* click('.services-widget') ............................................... passed
+And def step4 = 'User click Student button' ............................... passed
+* click('{^a}Student') .................................................... passed
+And def step5 = 'Take screenshot' ......................................... passed
+* driver.screenshot() ..................................................... passed
+And def step6 = 'Clear input field' ....................................... passed
+* clear('#txtSearch') ..................................................... passed
+And def step7 = 'User search for student' ................................. passed
+* input('#txtSearch', 'student') .......................................... passed
+And def step8 = 'User click button' ....................................... passed
+* click("//a[@id='btnSearch']") ........................................... passed
+And def step9 = 'Wait for the table to load' .............................. passed
+* waitFor('.table') ....................................................... passed
+And def step10 = 'Take screenshot' ........................................ passed
+* driver.screenshot() ..................................................... passed
+And def step11 = 'Clear Input Field' ...................................... passed
+* clear('#txtSearch1') .................................................... passed
+And def step12 = 'User input text search' ................................. passed
+* input('#txtSearch1', 'MMDA') ............................................ passed
+When def step13 = 'User click button' ..................................... passed
+* click('.btn.btn-system.btn-flat') ....................................... passed
+Then def step14 = 'User expected result should display the output in the table' . passed
+* match text('.table') contains 'MMDA' .................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* driver.screenshot() ..................................................... passed
+Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* maximize() .............................................................. passed
+And def step3 = 'User click services modal' ............................... passed
+* click('.services-widget') ............................................... passed
+And def step4 = 'User click Student button' ............................... passed
+* click('{^a}Student') .................................................... passed
+And def step5 = 'Take screenshot' ......................................... passed
+* driver.screenshot() ..................................................... passed
+And def step6 = 'Clear input field' ....................................... passed
+* clear('#txtSearch') ..................................................... passed
+And def step7 = 'User search for student' ................................. passed
+* input('#txtSearch', 'student') .......................................... passed
+And def step8 = 'User click button' ....................................... passed
+* click("//a[@id='btnSearch']") ........................................... passed
+And def step9 = 'Wait for the table to load' .............................. passed
+* waitFor('.table') ....................................................... passed
+And def step10 = 'Take screenshot' ........................................ passed
+* driver.screenshot() ..................................................... passed
+And def step11 = 'Clear Input Field' ...................................... passed
+* clear('#txtSearch1') .................................................... passed
+And def step12 = 'User input text search' ................................. passed
+* input('#txtSearch1', 'PUP') ............................................. passed
+When def step13 = 'User click button' ..................................... passed
+* click('.btn.btn-system.btn-flat') ....................................... passed
+Then def step14 = 'User expected result should display the output in the table' . passed
+* match text('.table') contains 'PUP' ..................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* driver.screenshot() ..................................................... passed</system-out>
+   </testcase>
+</testsuite>

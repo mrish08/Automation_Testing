@@ -1,0 +1,55 @@
+<testsuite failures="0"
+           name="src/test/java/examples/Mejorada_3_1/login.feature"
+           skipped="0"
+           tests="1"
+           time="23.144846">
+   <testcase classname="src.test.java.examples.Mejorada_3_1.login"
+             name="Using PUP Appointment System Login- Details"
+             time="23.144846">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* maximize() .............................................................. passed
+And def step3 = 'User click services modal' ............................... passed
+* click('.services-widget') ............................................... passed
+And def step4 = 'User click Applicant button' ............................. passed
+* click('{^a}Applicant') .................................................. passed
+And def step5 = 'Take Screenshot' ......................................... passed
+* driver.screenshot() ..................................................... passed
+And def step6 = 'User waiting time' ....................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step7 = 'User click appointment' .................................. passed
+* click("//span[contains(text(),'Schedule an appointment prior to visiting the Univ')]") . passed
+And def step8 = 'User waiting time' ....................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step8 = 'User click student login button' ......................... passed
+* click("//a[contains(@class,'btn-block bg-danger')]") .................... passed
+And def step9 = 'Clear waiting time' ...................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step10 = 'Clear Fields' ........................................... passed
+* clear('#studno') ........................................................ passed
+* clear('#SelectMonth') ................................................... passed
+* clear('#SelectDay') ..................................................... passed
+* clear('#SelectYear') .................................................... passed
+* clear('#password') ...................................................... passed
+And def step11 = 'Take screenshot' ........................................ passed
+* driver.screenshot() ..................................................... passed
+And def step12 = 'User waiting time' ...................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step13 = 'User input details' ..................................... passed
+* input('#studno', '2019-00029-CM-0') ..................................... passed
+* select('#SelectMonth','6') .............................................. passed
+* select('#SelectDay','15') ............................................... passed
+* select('#SelectYear','2000') ............................................ passed
+* input('#password','EmeLangPoItoPeroNaganaPoItoSaTruePasswordKoPo') ...... passed
+And def step14 = 'Take screenshot' ........................................ passed
+* driver.screenshot() ..................................................... passed
+When def step15 = 'User waiting time' ..................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+Then def step16 = 'User click login button' ............................... passed
+* click("//input[@name='Login']") ......................................... passed
+* driver.screenshot() ..................................................... passed</system-out>
+   </testcase>
+</testsuite>
