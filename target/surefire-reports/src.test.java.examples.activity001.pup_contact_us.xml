@@ -1,0 +1,24 @@
+<testsuite failures="0"
+           name="src/test/java/examples/activity001/pup_contact_us.feature"
+           skipped="0"
+           tests="1"
+           time="12.371982">
+   <testcase classname="src.test.java.examples.activity001.pup_contact_us"
+             name="Contact us Feature in PUP Site - PUP Contact us"
+             time="12.371982">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* driver.maximize() ....................................................... passed
+And def step3 = 'Wait the document until complete' ........................ passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step4 = 'User click Applicant button' ............................. passed
+* click('{^a}Applicant') .................................................. passed
+When def step5 = 'User click Contact us' .................................. passed
+* click('{^a}Contact us') ................................................. passed
+Then def step6 = 'User expected result should display the output in the website' . passed
+* waitForUrl('https://www.pup.edu.ph/about/contactus') .................... passed</system-out>
+   </testcase>
+</testsuite>

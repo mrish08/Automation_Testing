@@ -1,0 +1,27 @@
+<testsuite failures="0"
+           name="src/test/java/examples/ulibas_3_1/pup_search.feature"
+           skipped="0"
+           tests="1"
+           time="14.084168">
+   <testcase classname="src.test.java.examples.ulibas_3_1.pup_search"
+             name="Testing Search Feature in PUP Site - PUP Search"
+             time="14.084168">
+      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
+* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
+And def step1 = 'Browser navigates to PUP search website' ................. passed
+* driver 'https://www.pup.edu.ph' ......................................... passed
+And def step2 = 'Maximize Browser' ........................................ passed
+* driver.maximize() ....................................................... passed
+And def step3 = 'Wait the document until complete' ........................ passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+And def step4 = 'User click Applicant button' ............................. passed
+* click('{^a}Applicant') .................................................. passed
+And def step5 = 'User input text search' .................................. passed
+* input('#txtSearch', 'courses') .......................................... passed
+When def step6 = 'User click button' ...................................... passed
+* click('#btnSearch') ..................................................... passed
+Then def step7 = 'User expected result should display the output in the website' . passed
+* waitForUrl('https://www.pup.edu.ph/search') ............................. passed
+* driver.screenshot() ..................................................... passed</system-out>
+   </testcase>
+</testsuite>

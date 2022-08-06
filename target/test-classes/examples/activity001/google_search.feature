@@ -26,7 +26,7 @@ Feature: Search in Google
     * input('input[name=q]', '<value>')
     When def step3 = 'User click button'
     * click('input[name=btnI]')
-    Then def step4 = 'User expected result should display/show in google search result'
+    Then def step4 = 'User expected result should display the website'
     * waitForUrl('<expected>')
 
 
