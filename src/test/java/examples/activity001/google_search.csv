@@ -1,3 +1,3 @@
 name,value,expected
-Karate Search,karate dsl,https://github.com/karatelabs/karate
-Facebook Search,fb,https://www.facebook.com/
+Karate Search,karate dsl,Test Automation
+Facebook Search,fb,Facebook

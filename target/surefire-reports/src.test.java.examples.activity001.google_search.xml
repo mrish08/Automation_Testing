@@ -1,44 +1,27 @@
 <testsuite failures="0"
            name="src/test/java/examples/activity001/google_search.feature"
            skipped="0"
-           tests="2"
-           time="23.219825">
+           tests="1"
+           time="31.886924">
    <testcase classname="src.test.java.examples.activity001.google_search"
-             name="Using different searches - Karate Search"
-             time="14.775814">
+             name="Pup Home Search"
+             time="31.886924">
       <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
 * configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
-And def step1 = 'Browser navigates to Google' ............................. passed
-* driver 'https://www.google.com/' ........................................ passed
-And def step2 = 'User input text search' .................................. passed
-* input('input[name=q]', 'karate dsl') .................................... passed
-When def step3 = 'User click button' ...................................... passed
-* click('input[name=btnI]') ............................................... passed
-Then def step4 = 'User expected result should display/show in google search result' . passed
-* waitForUrl('https://github.com/karatelabs/karate') ...................... passed</system-out>
-   </testcase>
-   <testcase classname="src.test.java.examples.activity001.google_search"
-             name="Using different searches - Facebook Search"
-             time="8.444011">
-      <system-out>Given def step0 = 'Using Chrome as a browser' ............................. passed
-* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
-And def step1 = 'Browser navigates to Google' ............................. passed
-* driver 'https://www.google.com/' ........................................ passed
-And def step2 = 'User input text search' .................................. passed
-* input('input[name=q]', 'karate dsl') .................................... passed
-When def step3 = 'User click button' ...................................... passed
-* click('input[name=btnI]') ............................................... passed
-Then def step4 = 'User expected result should display/show in google search result' . passed
-* waitForUrl('https://github.com/karatelabs/karate') ...................... passed
-Given def step0 = 'Using Chrome as a browser' ............................. passed
-* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'} . passed
-And def step1 = 'Browser navigates to Google' ............................. passed
-* driver 'https://www.google.com/' ........................................ passed
-And def step2 = 'User input text search' .................................. passed
-* input('input[name=q]', 'fb') ............................................ passed
-When def step3 = 'User click button' ...................................... passed
-* click('input[name=btnI]') ............................................... passed
-Then def step4 = 'User expected result should display/show in google search result' . passed
-* waitForUrl('https://www.facebook.com/') ................................. passed</system-out>
+* driver 'https://www.pup.edu.ph/' ........................................ passed
+* driver.maximize() ....................................................... passed
+* waitUntil("document.readyState == 'complete'") .......................... passed
+* click('.services-widget') ............................................... passed
+* click('{^a}Applicant') .................................................. passed
+* driver.screenshot() ..................................................... passed
+* input('#txtSearch', 'quezon city') ...................................... passed
+* click('#btnSearch') ..................................................... passed
+* waitFor('.table') ....................................................... passed
+* screenshot() ............................................................ passed
+* clear('#txtSearch1') .................................................... passed
+* input('#txtSearch1', 'open university') ................................. passed
+* click('.btn.btn-system.btn-flat') ....................................... passed
+* match text('.table') contains 'DENR, PUP' ............................... passed
+* screenshot() ............................................................ passed</system-out>
    </testcase>
 </testsuite>
