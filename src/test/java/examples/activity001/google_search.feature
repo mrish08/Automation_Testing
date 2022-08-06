@@ -9,13 +9,14 @@ Feature: Search in Google
 #    When click('input[name=btnI]')
 #    Then waitForUrl('https://github.com/intuit/karate')
 #
-#  Scenario: Facebook Search
-#    #* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
-#    Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
-#    And driver 'https://www.google.com/'
-#    And input('input[name=q]', 'fb')
-#    When click('input[name=btnI]')
-#    Then waitForUrl('https://www.facebook.com/')
+  Scenario: Facebook Search
+    #* configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
+    Given configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
+    And driver 'https://www.google.com/'
+    And input('input[name=q]', 'fb')
+    When click('input[name=btnI]')
+    Then waitForUrl('https://www.facebook.com/')
+
   Scenario Outline: Using different searches - <name>
     Given def step0 = 'Using Chrome as a browser'
     * configure driver = {type:'chromedriver', executable: 'C:/Program Files/Google/Chrome/Application/chromedriver.exe'}
